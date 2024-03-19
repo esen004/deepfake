@@ -1,0 +1,58 @@
+{
+  "build": "py311h77c03ed_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "fmt >=9.1.0,<10.0a0",
+    "libmamba 1.5.3 hcd6fe79_0",
+    "openssl >=3.0.11,<4.0a0",
+    "pybind11-abi 4",
+    "python >=3.11,<3.12.0a0",
+    "vc >=14.2,<15.0a0",
+    "vs2015_runtime >=14.27.29016,<15.0a0",
+    "yaml-cpp >=0.8.0,<0.9.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\libmambapy-1.5.3-py311h77c03ed_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/libmambapy-1.5.3.dist-info/INSTALLER",
+    "Lib/site-packages/libmambapy-1.5.3.dist-info/LICENSE",
+    "Lib/site-packages/libmambapy-1.5.3.dist-info/METADATA",
+    "Lib/site-packages/libmambapy-1.5.3.dist-info/RECORD",
+    "Lib/site-packages/libmambapy-1.5.3.dist-info/REQUESTED",
+    "Lib/site-packages/libmambapy-1.5.3.dist-info/WHEEL",
+    "Lib/site-packages/libmambapy-1.5.3.dist-info/direct_url.json",
+    "Lib/site-packages/libmambapy-1.5.3.dist-info/top_level.txt",
+    "Lib/site-packages/libmambapy/__init__.py",
+    "Lib/site-packages/libmambapy/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/libmambapy/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/libmambapy/__pycache__/_version.cpython-311.pyc",
+    "Lib/site-packages/libmambapy/__pycache__/_version.cpython-312.pyc",
+    "Lib/site-packages/libmambapy/_version.py",
+    "Lib/site-packages/libmambapy/bindings.cp310-win_amd64.pyd",
+    "Lib/site-packages/libmambapy/bindings.cp311-win_amd64.pyd",
+    ".nonadmin"
+  ],
+  "fn": "libmambapy-1.5.3-py311h77c03ed_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\libmambapy-1.5.3-py311h77c03ed_0",
+    "type": 1
+  },
+  "md5": "d0b5e7ec5ff994c28758b5294f7b081e",
+  "name": "libmambapy",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\libmambapy-1.5.3-py311h77c03ed_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::libmambapy==1.5.3=py311h77c03ed_0[md5=d0b5e7ec5ff994c28758b5294f7b081e]",
+  "sha256": "91cf22995995312b508c6fa04c035eda2fc19304ee114331423eb124179664f4",
+  "size": 330687,
+  "subdir": "win-64",
+  "timestamp": 1698783375000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libmambapy-1.5.3-py311h77c03ed_0.conda",
+  "version": "1.5.3"
+}

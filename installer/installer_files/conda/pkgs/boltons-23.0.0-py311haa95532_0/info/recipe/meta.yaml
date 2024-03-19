@@ -1,0 +1,102 @@
+# This file created by conda-build 3.23.3
+# meta.yaml template originally from:
+# C:\Users\dev-admin\aggregate\boltons-feedstock\recipe, last modified Thu Mar  2 04:05:30 2023
+# ------------------------------------------------
+
+package:
+  name: boltons
+  version: 23.0.0
+source:
+  fn: boltons-23.0.0.tar.gz
+  sha256: 9b2998cd9525ed472079c7dd90fbd216a887202e8729d5969d4f33878f0ff668
+  url: https://github.com/mahmoud/boltons/archive/23.0.0.tar.gz
+build:
+  number: '0'
+  script: c:\\ci_311\\boltons_1677729932371\\_h_env\\python.exe -m pip install . --no-deps
+    -vv
+  string: py311haa95532_0
+requirements:
+  host:
+    - bzip2 1.0.8 he774522_0
+    - ca-certificates 2023.01.10 haa95532_0
+    - certifi 2022.12.7 py311haa95532_0
+    - libffi 3.4.2 hd77b12b_6
+    - openssl 1.1.1t h2bbff1b_0
+    - pip 22.3.1 py311haa95532_0
+    - python 3.11.0 h966fe2a_1
+    - setuptools 65.5.0 py311haa95532_0
+    - sqlite 3.40.1 h2bbff1b_0
+    - tk 8.6.12 h2bbff1b_0
+    - tzdata 2022g h04d1e81_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.37.1 pyhd3eb1b0_0
+    - wincertstore 0.2 py311haa95532_0
+    - xz 5.2.10 h8cc25b3_1
+    - zlib 1.2.13 h8cc25b3_0
+  run:
+    - python >=3.11,<3.12.0a0
+test:
+  commands:
+    - pytest -vv --doctest-modules boltons tests -k "not test_reverse_iter_lines"
+    - pip check
+  imports:
+    - boltons
+    - boltons.cacheutils
+    - boltons.debugutils
+    - boltons.dictutils
+    - boltons.ecoutils
+    - boltons.fileutils
+    - boltons.formatutils
+    - boltons.funcutils
+    - boltons.gcutils
+    - boltons.ioutils
+    - boltons.iterutils
+    - boltons.jsonutils
+    - boltons.listutils
+    - boltons.mathutils
+    - boltons.mboxutils
+    - boltons.namedutils
+    - boltons.pathutils
+    - boltons.queueutils
+    - boltons.setutils
+    - boltons.socketutils
+    - boltons.statsutils
+    - boltons.strutils
+    - boltons.tableutils
+    - boltons.tbutils
+    - boltons.timeutils
+    - boltons.typeutils
+    - boltons.urlutils
+  requires:
+    - pip
+    - pytest
+  source_files:
+    - boltons
+    - pytest.ini
+    - tests
+about:
+  description: "Boltons is a set of pure-Python utilities in the same spirit as \u2014\
+    \ and yet conspicuously missing from \u2014 the standard library, including:\n\
+    \n  - Atomic file saving, bolted on with fileutils\n  - A highly-optimized OrderedMultiDict,\
+    \ in dictutils\n  - Two types of PriorityQueue, in queueutils\n  - Chunked and\
+    \ windowed iteration, in iterutils\n  - A full-featured TracebackInfo type, for\
+    \ representing stack traces, in tbutils\n  - A lightweight UTC timezone available\
+    \ in timeutils.\n  - Recursive mapping for nested data transforms, with remap\n"
+  dev_url: https://github.com/mahmoud/boltons
+  doc_url: https://boltons.readthedocs.io/
+  home: https://github.com/mahmoud/boltons
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: 'boltons should be builtins. Boltons is a set of over 160 BSD-licensed,
+    pure-Python utilities in the same spirit as--and yet conspicuously missing from--the
+    standard library.
+
+    '
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - kalefranz
+    - nicoddemus

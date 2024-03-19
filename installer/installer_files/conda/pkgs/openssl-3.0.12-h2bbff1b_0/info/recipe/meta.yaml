@@ -1,0 +1,75 @@
+# This file created by conda-build 3.27.0
+# meta.yaml template originally from:
+# C:\b\abs_2czbrcekhb\clone\recipe, last modified Fri Nov  3 12:47:33 2023
+# ------------------------------------------------
+
+package:
+  name: openssl
+  version: 3.0.12
+source:
+  sha256: f93c9e8edde5e9166119de31755fc87b4aa34863662f67ddfcba14d0b6b69b61
+  url: https://www.openssl.org/source/openssl-3.0.12.tar.gz
+build:
+  binary_has_prefix_files: null
+  detect_binary_files_with_prefix: true
+  number: '0'
+  run_exports:
+    - openssl >=3.0.12,<4.0a0
+  string: h2bbff1b_0
+requirements:
+  build:
+    - nasm 2.14.02 h7edc060_0
+    - perl 5.26.2.1 h0c8e037_0
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+  host:
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+  run:
+    - ca-certificates
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+  commands:
+    - copy NUL checksum.txt
+    - openssl sha256 checksum.txt
+    - openssl ecparam -name prime256v1
+    - if "%SSL_CERT_FILE%"=="" exit 1
+    - if not exist "%SSL_CERT_FILE%" exit 1
+    - python -c "import urllib.request; urllib.request.urlopen('https://pypi.org')"
+  requires:
+    - python 3.8.*
+about:
+  description: 'OpenSSL is a robust, commercial-grade, full-featured Open Source Toolkit
+
+    for the Transport Layer Security (TLS) protocol formerly known as the
+
+    Secure Sockets Layer (SSL) protocol. The protocol implementation is based
+
+    on a full-strength general purpose cryptographic library, which can also
+
+    be used stand-alone.
+
+    '
+  dev_url: https://github.com/openssl/openssl
+  doc_url: https://www.openssl.org/docs/man3.0/
+  home: https://www.openssl.org/
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE.txt
+  summary: OpenSSL is an open-source implementation of the SSL and TLS protocols
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 2c4ff211-4bb2-44ad-8b3a-4455d6999083
+  recipe-maintainers:
+    - carlodri
+    - chenghlee
+    - jakirkham
+    - jjhelmus
+    - msarahan
+    - ocefpaf
+    - pelson
+  remote_url: git@github.com:AnacondaRecipes/openssl-feedstock.git
+  sha: b51aee3999165520cd436a42cd8070fe3ebb751a

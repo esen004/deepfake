@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "he2ea4bf_2",
+  "build_number": 2,
+  "depends": [
+    "openssl >=3.0.8,<4.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "libssh2",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1686933095919,
+  "version": "1.10.0"
+}

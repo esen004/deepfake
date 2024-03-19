@@ -1,0 +1,47 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/charset.dll",
+      "path_type": "hardlink",
+      "sha256": "5288917f4acf064ffedb9b0019348b9eadf739ca2c4387504175c3675b84b241",
+      "size_in_bytes": 10752
+    },
+    {
+      "_path": "Library/bin/iconv.dll",
+      "path_type": "hardlink",
+      "sha256": "20313dcb23e600b5cc211cd2b4f3be8a3ad328ee1ee04bc127790dcbdd666c34",
+      "size_in_bytes": 937984
+    },
+    {
+      "_path": "Library/include/iconv.h",
+      "path_type": "hardlink",
+      "sha256": "6682d0dd7e5bc38b092a261ea78b68d32ba91a462563c13c4f25221b061e3629",
+      "size_in_bytes": 9936
+    },
+    {
+      "_path": "Library/include/libcharset.h",
+      "path_type": "hardlink",
+      "sha256": "8a923fb075e9336cbc629de6db07344fbec14da9ba8670c581077b2b070efdfa",
+      "size_in_bytes": 1558
+    },
+    {
+      "_path": "Library/include/localcharset.h",
+      "path_type": "hardlink",
+      "sha256": "9bf273f0a70225e09bee417eb6ffba73d1ad6701ccfc9a9393469d1c2b2fadb8",
+      "size_in_bytes": 6035
+    },
+    {
+      "_path": "Library/lib/charset.lib",
+      "path_type": "hardlink",
+      "sha256": "0078b7f5a0b93c565a943f56e8d9a3455cd5cfed53bd37856e790892fb20f71e",
+      "size_in_bytes": 2524
+    },
+    {
+      "_path": "Library/lib/iconv.lib",
+      "path_type": "hardlink",
+      "sha256": "b228128b0948be1b1e350c52a7eb204bc5be5707dcbbb3831baab2fddddc4d1c",
+      "size_in_bytes": 3860
+    }
+  ],
+  "paths_version": 1
+}

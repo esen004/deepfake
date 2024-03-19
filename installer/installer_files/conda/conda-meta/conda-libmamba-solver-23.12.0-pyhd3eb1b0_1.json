@@ -1,0 +1,116 @@
+{
+  "build": "pyhd3eb1b0_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "boltons >=23.0.0",
+    "conda >=23.7.4",
+    "libmambapy >=1.5.3",
+    "python >=3.8"
+  ],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\conda-libmamba-solver-23.12.0-pyhd3eb1b0_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/conda_libmamba_solver-23.12.0.dist-info/INSTALLER",
+    "Lib/site-packages/conda_libmamba_solver-23.12.0.dist-info/METADATA",
+    "Lib/site-packages/conda_libmamba_solver-23.12.0.dist-info/RECORD",
+    "Lib/site-packages/conda_libmamba_solver-23.12.0.dist-info/REQUESTED",
+    "Lib/site-packages/conda_libmamba_solver-23.12.0.dist-info/WHEEL",
+    "Lib/site-packages/conda_libmamba_solver-23.12.0.dist-info/direct_url.json",
+    "Lib/site-packages/conda_libmamba_solver-23.12.0.dist-info/entry_points.txt",
+    "Lib/site-packages/conda_libmamba_solver-23.12.0.dist-info/licenses/AUTHORS.md",
+    "Lib/site-packages/conda_libmamba_solver-23.12.0.dist-info/licenses/LICENSE",
+    "Lib/site-packages/conda_libmamba_solver/__init__.py",
+    "Lib/site-packages/conda_libmamba_solver/conda_build_exceptions.py",
+    "Lib/site-packages/conda_libmamba_solver/exceptions.py",
+    "Lib/site-packages/conda_libmamba_solver/index.py",
+    "Lib/site-packages/conda_libmamba_solver/mamba_utils.py",
+    "Lib/site-packages/conda_libmamba_solver/models.py",
+    "Lib/site-packages/conda_libmamba_solver/plugin.py",
+    "Lib/site-packages/conda_libmamba_solver/repoquery.py",
+    "Lib/site-packages/conda_libmamba_solver/solver.py",
+    "Lib/site-packages/conda_libmamba_solver/state.py",
+    "Lib/site-packages/conda_libmamba_solver/utils.py",
+    ".nonadmin",
+    "Lib/site-packages/conda_libmamba_solver/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/conda_libmamba_solver/__pycache__/conda_build_exceptions.cpython-311.pyc",
+    "Lib/site-packages/conda_libmamba_solver/__pycache__/exceptions.cpython-311.pyc",
+    "Lib/site-packages/conda_libmamba_solver/__pycache__/index.cpython-311.pyc",
+    "Lib/site-packages/conda_libmamba_solver/__pycache__/mamba_utils.cpython-311.pyc",
+    "Lib/site-packages/conda_libmamba_solver/__pycache__/models.cpython-311.pyc",
+    "Lib/site-packages/conda_libmamba_solver/__pycache__/plugin.cpython-311.pyc",
+    "Lib/site-packages/conda_libmamba_solver/__pycache__/repoquery.cpython-311.pyc",
+    "Lib/site-packages/conda_libmamba_solver/__pycache__/solver.cpython-311.pyc",
+    "Lib/site-packages/conda_libmamba_solver/__pycache__/state.cpython-311.pyc",
+    "Lib/site-packages/conda_libmamba_solver/__pycache__/utils.cpython-311.pyc"
+  ],
+  "fn": "conda-libmamba-solver-23.12.0-pyhd3eb1b0_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\conda-libmamba-solver-23.12.0-pyhd3eb1b0_1",
+    "type": 1
+  },
+  "md5": "52d0f59ee4540a060fa8e851b78fcf6c",
+  "name": "conda-libmamba-solver",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\conda-libmamba-solver-23.12.0-pyhd3eb1b0_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/conda_libmamba_solver/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/conda_libmamba_solver/__pycache__/conda_build_exceptions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/conda_libmamba_solver/__pycache__/exceptions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/conda_libmamba_solver/__pycache__/index.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/conda_libmamba_solver/__pycache__/mamba_utils.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/conda_libmamba_solver/__pycache__/models.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/conda_libmamba_solver/__pycache__/plugin.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/conda_libmamba_solver/__pycache__/repoquery.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/conda_libmamba_solver/__pycache__/solver.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/conda_libmamba_solver/__pycache__/state.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/conda_libmamba_solver/__pycache__/utils.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/noarch::conda-libmamba-solver==23.12.0=pyhd3eb1b0_1[md5=52d0f59ee4540a060fa8e851b78fcf6c]",
+  "sha256": "95897fd374d0b0877619ccab5ca1cc6b18a4bf0752aa7d3038a9a2cd5bd6f13c",
+  "size": 46594,
+  "subdir": "noarch",
+  "timestamp": 1702997619000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/conda-libmamba-solver-23.12.0-pyhd3eb1b0_1.conda",
+  "version": "23.12.0"
+}

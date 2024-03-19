@@ -1,0 +1,16 @@
+Library/bin/reproc++.dll
+Library/include/reproc++/arguments.hpp
+Library/include/reproc++/detail/array.hpp
+Library/include/reproc++/detail/type_traits.hpp
+Library/include/reproc++/drain.hpp
+Library/include/reproc++/env.hpp
+Library/include/reproc++/export.hpp
+Library/include/reproc++/input.hpp
+Library/include/reproc++/reproc.hpp
+Library/include/reproc++/run.hpp
+Library/lib/cmake/reproc++/reproc++-config-version.cmake
+Library/lib/cmake/reproc++/reproc++-config.cmake
+Library/lib/cmake/reproc++/reproc++-targets-release.cmake
+Library/lib/cmake/reproc++/reproc++-targets.cmake
+Library/lib/pkgconfig/reproc++.pc
+Library/lib/reproc++.lib

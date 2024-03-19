@@ -1,0 +1,8 @@
+{
+  "zstd": "1.5.2",
+  "cxx_compiler": "vs2019",
+  "target_platform": "win-64",
+  "channel_targets": "defaults",
+  "bzip2": "1.0",
+  "openssl": "3.0"
+}

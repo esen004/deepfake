@@ -1,0 +1,17 @@
+{
+  "paths": [
+    {
+      "_path": "Menu/Iconleak-Atrous-PSConsole.ico",
+      "path_type": "hardlink",
+      "sha256": "92183372a2d388578c5c7b9d72c7b4c1aaccd9078ec44fd12b500777026a3395",
+      "size_in_bytes": 432254
+    },
+    {
+      "_path": "Menu/powershell_shortcut.json",
+      "path_type": "hardlink",
+      "sha256": "b599e162c7df2d1263c13cec3a7ddc077034052cc488dd6561784406233b57f4",
+      "size_in_bytes": 498
+    }
+  ],
+  "paths_version": 1
+}

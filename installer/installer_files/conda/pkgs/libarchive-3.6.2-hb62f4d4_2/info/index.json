@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "hb62f4d4_2",
+  "build_number": 2,
+  "depends": [
+    "bzip2 >=1.0.8,<2.0a0",
+    "libiconv >=1.16,<2.0a0",
+    "libxml2 >=2.10.3,<2.11.0a0",
+    "lz4-c >=1.9.4,<1.10.0a0",
+    "openssl 3.*",
+    "openssl >=3.0.8,<4.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0",
+    "xz >=5.4.2,<6.0a0",
+    "zlib >=1.2.13,<1.3.0a0",
+    "zstd >=1.5.2,<1.6.0a0"
+  ],
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "name": "libarchive",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1685747992384,
+  "version": "3.6.2"
+}

@@ -1,0 +1,20 @@
+{
+  "build": "h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "fn": "lz4-c-1.9.4-h2bbff1b_0.conda",
+  "license": "BSD-2-Clause",
+  "md5": "3f22ad4062b3087c6842f54bf88a1f4c",
+  "name": "lz4-c",
+  "sha256": "b0e1ff7c14b5e022b287b2211c2d469d7bd053d09d5fa57cba22f23b883a4303",
+  "size": 146107,
+  "subdir": "win-64",
+  "timestamp": 1670944902000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/lz4-c-1.9.4-h2bbff1b_0.conda",
+  "version": "1.9.4"
+}

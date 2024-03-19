@@ -1,0 +1,20 @@
+{
+  "build": "h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "fn": "tk-8.6.12-h2bbff1b_0.conda",
+  "license": "Tcl/Tk",
+  "md5": "3e6f2cd798aea9f886970b61dad14304",
+  "name": "tk",
+  "sha256": "d66e336b291afef281c6e320380313f10d396df392f169f5bbcea04dfcbf9e1b",
+  "size": 3229518,
+  "subdir": "win-64",
+  "timestamp": 1654036853000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/tk-8.6.12-h2bbff1b_0.conda",
+  "version": "8.6.12"
+}

@@ -1,0 +1,30 @@
+{
+  "build": "he1021f5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "bzip2 >=1.0.8,<2.0a0",
+    "libffi >=3.4,<3.5",
+    "libffi >=3.4,<4.0a0",
+    "openssl >=3.0.10,<4.0a0",
+    "sqlite >=3.41.2,<4.0a0",
+    "tk >=8.6.12,<8.7.0a0",
+    "tzdata",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0",
+    "xz >=5.4.2,<6.0a0",
+    "zlib >=1.2.13,<1.3.0a0",
+    "pip"
+  ],
+  "fn": "python-3.11.5-he1021f5_0.conda",
+  "license": "PSF-2.0",
+  "md5": "d281f416d55228e8f574df1ee61ae548",
+  "name": "python",
+  "sha256": "bc4d7643faa6b80356c0b8ee48813043942e6e0a1d63024b0704c7d395e90106",
+  "size": 18881711,
+  "subdir": "win-64",
+  "timestamp": 1694439081000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/python-3.11.5-he1021f5_0.conda",
+  "version": "3.11.5"
+}

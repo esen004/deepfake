@@ -1,0 +1,49 @@
+{
+  "build": "py311h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\pycosat-0.6.6-py311h2bbff1b_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/__pycache__/test_pycosat.cpython-311.pyc",
+    "Lib/site-packages/pycosat-0.6.6.dist-info/AUTHORS.md",
+    "Lib/site-packages/pycosat-0.6.6.dist-info/INSTALLER",
+    "Lib/site-packages/pycosat-0.6.6.dist-info/LICENSE",
+    "Lib/site-packages/pycosat-0.6.6.dist-info/METADATA",
+    "Lib/site-packages/pycosat-0.6.6.dist-info/RECORD",
+    "Lib/site-packages/pycosat-0.6.6.dist-info/REQUESTED",
+    "Lib/site-packages/pycosat-0.6.6.dist-info/WHEEL",
+    "Lib/site-packages/pycosat-0.6.6.dist-info/direct_url.json",
+    "Lib/site-packages/pycosat-0.6.6.dist-info/top_level.txt",
+    "Lib/site-packages/pycosat.cp311-win_amd64.pyd",
+    "Lib/site-packages/test_pycosat.py",
+    ".nonadmin"
+  ],
+  "fn": "pycosat-0.6.6-py311h2bbff1b_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\pycosat-0.6.6-py311h2bbff1b_0",
+    "type": 1
+  },
+  "md5": "39ced3658ae08272752148f5ec1926a2",
+  "name": "pycosat",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\pycosat-0.6.6-py311h2bbff1b_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::pycosat==0.6.6=py311h2bbff1b_0[md5=39ced3658ae08272752148f5ec1926a2]",
+  "sha256": "308ef0da78bbd6ac726ab0db0d4f8402c0c60bf0ca783d2cc6d9f700585c34f8",
+  "size": 83518,
+  "subdir": "win-64",
+  "timestamp": 1696537404000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pycosat-0.6.6-py311h2bbff1b_0.conda",
+  "version": "0.6.6"
+}

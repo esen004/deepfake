@@ -1,0 +1,48 @@
+{
+  "build": "py311hd77b12b_7",
+  "build_number": 7,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\brotli-python-1.0.9-py311hd77b12b_7",
+  "features": "",
+  "files": [
+    "Lib/site-packages/Brotli-1.0.9.dist-info/INSTALLER",
+    "Lib/site-packages/Brotli-1.0.9.dist-info/LICENSE",
+    "Lib/site-packages/Brotli-1.0.9.dist-info/METADATA",
+    "Lib/site-packages/Brotli-1.0.9.dist-info/RECORD",
+    "Lib/site-packages/Brotli-1.0.9.dist-info/REQUESTED",
+    "Lib/site-packages/Brotli-1.0.9.dist-info/WHEEL",
+    "Lib/site-packages/Brotli-1.0.9.dist-info/direct_url.json",
+    "Lib/site-packages/Brotli-1.0.9.dist-info/top_level.txt",
+    "Lib/site-packages/__pycache__/brotli.cpython-311.pyc",
+    "Lib/site-packages/_brotli.cp311-win_amd64.pyd",
+    "Lib/site-packages/brotli.py",
+    ".nonadmin"
+  ],
+  "fn": "brotli-python-1.0.9-py311hd77b12b_7.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\brotli-python-1.0.9-py311hd77b12b_7",
+    "type": 1
+  },
+  "md5": "1c916fd397d1e0cc2367d230627a18f5",
+  "name": "brotli-python",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\brotli-python-1.0.9-py311hd77b12b_7.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::brotli-python==1.0.9=py311hd77b12b_7[md5=1c916fd397d1e0cc2367d230627a18f5]",
+  "sha256": "85cb75423fb191d0b4e1d1bc52c431aa76bb11e55a2ae43ac31c761b4c8e4fde",
+  "size": 317196,
+  "subdir": "win-64",
+  "timestamp": 1676436053000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/brotli-python-1.0.9-py311hd77b12b_7.conda",
+  "version": "1.0.9"
+}

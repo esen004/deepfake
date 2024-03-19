@@ -1,0 +1,41 @@
+{
+  "build": "h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\sqlite-3.41.2-h2bbff1b_0",
+  "features": "",
+  "files": [
+    "Library/bin/sqlite3.dll",
+    "Library/bin/sqlite3.exe",
+    "Library/include/sqlite3.h",
+    "Library/include/sqlite3ext.h",
+    "Library/lib/sqlite3.lib",
+    ".nonadmin"
+  ],
+  "fn": "sqlite-3.41.2-h2bbff1b_0.conda",
+  "license": "blessing",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\sqlite-3.41.2-h2bbff1b_0",
+    "type": 1
+  },
+  "md5": "eefb61a5b27aeb8c00f642290fd3375f",
+  "name": "sqlite",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\sqlite-3.41.2-h2bbff1b_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::sqlite==3.41.2=h2bbff1b_0[md5=eefb61a5b27aeb8c00f642290fd3375f]",
+  "sha256": "c57645efa4272ad1563a8a5e2e52c5d89f470d59dfc28b55ccb5db67250ad293",
+  "size": 915400,
+  "subdir": "win-64",
+  "timestamp": 1681402905000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/sqlite-3.41.2-h2bbff1b_0.conda",
+  "version": "3.41.2"
+}

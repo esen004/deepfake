@@ -1,0 +1,42 @@
+{
+  "build": "h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\lz4-c-1.9.4-h2bbff1b_0",
+  "features": "",
+  "files": [
+    "Library/bin/liblz4.dll",
+    "Library/bin/lz4.exe",
+    "Library/include/lz4.h",
+    "Library/include/lz4frame.h",
+    "Library/include/lz4hc.h",
+    "Library/lib/liblz4.lib",
+    ".nonadmin"
+  ],
+  "fn": "lz4-c-1.9.4-h2bbff1b_0.conda",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\lz4-c-1.9.4-h2bbff1b_0",
+    "type": 1
+  },
+  "md5": "3f22ad4062b3087c6842f54bf88a1f4c",
+  "name": "lz4-c",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\lz4-c-1.9.4-h2bbff1b_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::lz4-c==1.9.4=h2bbff1b_0[md5=3f22ad4062b3087c6842f54bf88a1f4c]",
+  "sha256": "b0e1ff7c14b5e022b287b2211c2d469d7bd053d09d5fa57cba22f23b883a4303",
+  "size": 146107,
+  "subdir": "win-64",
+  "timestamp": 1670944902000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/lz4-c-1.9.4-h2bbff1b_0.conda",
+  "version": "1.9.4"
+}

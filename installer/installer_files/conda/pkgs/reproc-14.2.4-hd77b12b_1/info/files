@@ -1,0 +1,11 @@
+Library/bin/reproc.dll
+Library/include/reproc/drain.h
+Library/include/reproc/export.h
+Library/include/reproc/reproc.h
+Library/include/reproc/run.h
+Library/lib/cmake/reproc/reproc-config-version.cmake
+Library/lib/cmake/reproc/reproc-config.cmake
+Library/lib/cmake/reproc/reproc-targets-release.cmake
+Library/lib/cmake/reproc/reproc-targets.cmake
+Library/lib/pkgconfig/reproc.pc
+Library/lib/reproc.lib

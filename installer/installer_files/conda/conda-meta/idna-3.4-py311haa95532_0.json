@@ -1,0 +1,59 @@
+{
+  "build": "py311haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\idna-3.4-py311haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/idna-3.4.dist-info/INSTALLER",
+    "Lib/site-packages/idna-3.4.dist-info/LICENSE.md",
+    "Lib/site-packages/idna-3.4.dist-info/METADATA",
+    "Lib/site-packages/idna-3.4.dist-info/RECORD",
+    "Lib/site-packages/idna-3.4.dist-info/REQUESTED",
+    "Lib/site-packages/idna-3.4.dist-info/WHEEL",
+    "Lib/site-packages/idna-3.4.dist-info/direct_url.json",
+    "Lib/site-packages/idna/__init__.py",
+    "Lib/site-packages/idna/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/idna/__pycache__/codec.cpython-311.pyc",
+    "Lib/site-packages/idna/__pycache__/compat.cpython-311.pyc",
+    "Lib/site-packages/idna/__pycache__/core.cpython-311.pyc",
+    "Lib/site-packages/idna/__pycache__/idnadata.cpython-311.pyc",
+    "Lib/site-packages/idna/__pycache__/intranges.cpython-311.pyc",
+    "Lib/site-packages/idna/__pycache__/package_data.cpython-311.pyc",
+    "Lib/site-packages/idna/__pycache__/uts46data.cpython-311.pyc",
+    "Lib/site-packages/idna/codec.py",
+    "Lib/site-packages/idna/compat.py",
+    "Lib/site-packages/idna/core.py",
+    "Lib/site-packages/idna/idnadata.py",
+    "Lib/site-packages/idna/intranges.py",
+    "Lib/site-packages/idna/package_data.py",
+    "Lib/site-packages/idna/py.typed",
+    "Lib/site-packages/idna/uts46data.py",
+    ".nonadmin"
+  ],
+  "fn": "idna-3.4-py311haa95532_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\idna-3.4-py311haa95532_0",
+    "type": 1
+  },
+  "md5": "4cba12ee114bcebbc6a4bc9d32f366fe",
+  "name": "idna",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\idna-3.4-py311haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::idna==3.4=py311haa95532_0[md5=4cba12ee114bcebbc6a4bc9d32f366fe]",
+  "sha256": "1d2d6c52ab8b49fec84962bd511fed9e7b158540d80d198dc50c59371768664a",
+  "size": 103568,
+  "subdir": "win-64",
+  "timestamp": 1676424962000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/idna-3.4-py311haa95532_0.conda",
+  "version": "3.4"
+}

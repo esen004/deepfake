@@ -1,0 +1,15 @@
+{
+  "arch": null,
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.6"
+  ],
+  "license": "MIT OR Apache-2.0",
+  "name": "archspec",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1697725805041,
+  "version": "0.2.1"
+}

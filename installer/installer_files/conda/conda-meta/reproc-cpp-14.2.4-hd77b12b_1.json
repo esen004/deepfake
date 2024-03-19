@@ -1,0 +1,63 @@
+{
+  "build": "hd77b12b_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "reproc 14.2.4 hd77b12b_1",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\reproc-cpp-14.2.4-hd77b12b_1",
+  "features": "",
+  "files": [
+    "Library/bin/reproc++.dll",
+    "Library/include/reproc++/arguments.hpp",
+    "Library/include/reproc++/detail/array.hpp",
+    "Library/include/reproc++/detail/type_traits.hpp",
+    "Library/include/reproc++/drain.hpp",
+    "Library/include/reproc++/env.hpp",
+    "Library/include/reproc++/export.hpp",
+    "Library/include/reproc++/input.hpp",
+    "Library/include/reproc++/reproc.hpp",
+    "Library/include/reproc++/run.hpp",
+    "Library/lib/cmake/reproc++/reproc++-config-version.cmake",
+    "Library/lib/cmake/reproc++/reproc++-config.cmake",
+    "Library/lib/cmake/reproc++/reproc++-targets-release.cmake",
+    "Library/lib/cmake/reproc++/reproc++-targets.cmake",
+    "Library/lib/pkgconfig/reproc++.pc",
+    "Library/lib/reproc++.lib",
+    ".nonadmin"
+  ],
+  "fn": "reproc-cpp-14.2.4-hd77b12b_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\reproc-cpp-14.2.4-hd77b12b_1",
+    "type": 1
+  },
+  "md5": "57d3bd61e70e40d0dfeb2b8e8b3554a6",
+  "name": "reproc-cpp",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\reproc-cpp-14.2.4-hd77b12b_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/lib/pkgconfig/reproc++.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/reproc_1647441941593/_h_env",
+        "sha256": "35d0ffe833157e911c37e25c5ca778b18c2f3cc8d44c129b652d4c748db6122d",
+        "sha256_in_prefix": "f64ced3361fe6320a9a8d3bed335dd6890670b7dd3a5e44196a2bb25efc1ec3c",
+        "size_in_bytes": 370
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::reproc-cpp==14.2.4=hd77b12b_1[md5=57d3bd61e70e40d0dfeb2b8e8b3554a6]",
+  "sha256": "ad4413805fa36342d03d2ee3ed2d9db470e24dcbf60b6d23d25dd77b7dcdb900",
+  "size": 27569,
+  "subdir": "win-64",
+  "timestamp": 1647442079000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/reproc-cpp-14.2.4-hd77b12b_1.conda",
+  "version": "14.2.4"
+}

@@ -1,0 +1,57 @@
+{
+  "build": "hd77b12b_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\reproc-14.2.4-hd77b12b_1",
+  "features": "",
+  "files": [
+    "Library/bin/reproc.dll",
+    "Library/include/reproc/drain.h",
+    "Library/include/reproc/export.h",
+    "Library/include/reproc/reproc.h",
+    "Library/include/reproc/run.h",
+    "Library/lib/cmake/reproc/reproc-config-version.cmake",
+    "Library/lib/cmake/reproc/reproc-config.cmake",
+    "Library/lib/cmake/reproc/reproc-targets-release.cmake",
+    "Library/lib/cmake/reproc/reproc-targets.cmake",
+    "Library/lib/pkgconfig/reproc.pc",
+    "Library/lib/reproc.lib",
+    ".nonadmin"
+  ],
+  "fn": "reproc-14.2.4-hd77b12b_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\reproc-14.2.4-hd77b12b_1",
+    "type": 1
+  },
+  "md5": "03a71ee6290cc184b4068aec88b23f61",
+  "name": "reproc",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\reproc-14.2.4-hd77b12b_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/lib/pkgconfig/reproc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/reproc_1647441941593/_h_env",
+        "sha256": "b56ef566bc9dfb8de4a5b55b4ae4e33f86acfeb992baa17b2135c3b1bc82f17e",
+        "sha256_in_prefix": "118f30ceef531a6b0ea9de012884776facf2dabeef2db05a986c7c6404045524",
+        "size_in_bytes": 339
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::reproc==14.2.4=hd77b12b_1[md5=03a71ee6290cc184b4068aec88b23f61]",
+  "sha256": "f94b77f666ab83d13f0830adcdc16908321a2de8ab954ff1761a0943961e63b5",
+  "size": 33415,
+  "subdir": "win-64",
+  "timestamp": 1647442028000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/reproc-14.2.4-hd77b12b_1.conda",
+  "version": "14.2.4"
+}

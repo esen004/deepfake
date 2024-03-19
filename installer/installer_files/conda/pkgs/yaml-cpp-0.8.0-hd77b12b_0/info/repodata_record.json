@@ -1,0 +1,20 @@
+{
+  "build": "hd77b12b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "fn": "yaml-cpp-0.8.0-hd77b12b_0.conda",
+  "license": "MIT",
+  "md5": "892e6c1bd75c84e7a11ac45fb94bd8b1",
+  "name": "yaml-cpp",
+  "sha256": "7e7fa41c4a7cceb32ae474543647d115191a8466831d8ec7c887e0fa1cdd8af1",
+  "size": 2142006,
+  "subdir": "win-64",
+  "timestamp": 1698774788000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/yaml-cpp-0.8.0-hd77b12b_0.conda",
+  "version": "0.8.0"
+}

@@ -1,0 +1,22 @@
+{
+  "build": "h04d1e81_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "tzdata-2023d-h04d1e81_0.conda",
+  "license": "CC-PDDC OR BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "fdb319536f351b2b828a350ffd1a35a1",
+  "name": "tzdata",
+  "noarch": "generic",
+  "package_type": "noarch_generic",
+  "sha256": "4a8401b42e13d3d000f4679b7a9295b250499e3f6d264636df1a3ca2f97d5112",
+  "size": 120263,
+  "subdir": "noarch",
+  "timestamp": 1704383565000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/tzdata-2023d-h04d1e81_0.conda",
+  "version": "2023d"
+}

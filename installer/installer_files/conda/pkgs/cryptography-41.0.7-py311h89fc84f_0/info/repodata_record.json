@@ -1,0 +1,25 @@
+{
+  "build": "py311h89fc84f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "pyopenssl >=23.0.0"
+  ],
+  "depends": [
+    "cffi >=1.12",
+    "openssl >=3.0.12,<4.0a0",
+    "python >=3.11,<3.12.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "fn": "cryptography-41.0.7-py311h89fc84f_0.conda",
+  "license": "(BSD-3-Clause OR Apache-2.0) AND PSF-2.0 AND MIT",
+  "md5": "d209d74c5bda3b793db62474a00e52c0",
+  "name": "cryptography",
+  "sha256": "080aef1ca62e48a8e55b710df74c5d3ed5f71b8bb51aae5a55472e2ad31108a7",
+  "size": 1236975,
+  "subdir": "win-64",
+  "timestamp": 1702073016000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/cryptography-41.0.7-py311h89fc84f_0.conda",
+  "version": "41.0.7"
+}

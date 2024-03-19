@@ -1,0 +1,12 @@
+{
+  "xz": "5",
+  "openssl": "3.0",
+  "channel_targets": "defaults",
+  "bzip2": "1.0",
+  "c_compiler": "vs2017",
+  "sqlite": "3",
+  "zlib": "1.2",
+  "target_platform": "win-64",
+  "tk": "8.6",
+  "cxx_compiler": "vs2017"
+}

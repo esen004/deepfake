@@ -1,0 +1,39 @@
+{
+  "build": "haa95532_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "anaconda-navigator >=1.9.8"
+  ],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\powershell_shortcut_miniconda-0.0.1-haa95532_1",
+  "features": "",
+  "files": [
+    "Menu/Iconleak-Atrous-PSConsole.ico",
+    "Menu/powershell_shortcut.json",
+    ".nonadmin"
+  ],
+  "fn": "powershell_shortcut_miniconda-0.0.1-haa95532_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\powershell_shortcut_miniconda-0.0.1-haa95532_1",
+    "type": 1
+  },
+  "md5": "19b6facebf1a84f97fcfdc7f7c0dab6a",
+  "name": "powershell_shortcut_miniconda",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\powershell_shortcut_miniconda-0.0.1-haa95532_1.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::powershell_shortcut_miniconda==0.0.1=haa95532_1[md5=19b6facebf1a84f97fcfdc7f7c0dab6a]",
+  "sha256": "cef38de4a2f8a921bafc09b6edf9a6bbfd61a34c6604d23aa6481c36d21f7631",
+  "size": 130909,
+  "subdir": "win-64",
+  "timestamp": 1674501034000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/powershell_shortcut_miniconda-0.0.1-haa95532_1.conda",
+  "version": "0.0.1"
+}

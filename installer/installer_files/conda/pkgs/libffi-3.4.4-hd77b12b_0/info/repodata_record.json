@@ -1,0 +1,20 @@
+{
+  "build": "hd77b12b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "fn": "libffi-3.4.4-hd77b12b_0.conda",
+  "license": "MIT",
+  "md5": "0a01fe57e6261e7c574e43f2b1385f48",
+  "name": "libffi",
+  "sha256": "e794277146eedbce79b23dbc3cee877e9222bac756a9bbfec971a14a667d10cb",
+  "size": 115307,
+  "subdir": "win-64",
+  "timestamp": 1683716620000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libffi-3.4.4-hd77b12b_0.conda",
+  "version": "3.4.4"
+}

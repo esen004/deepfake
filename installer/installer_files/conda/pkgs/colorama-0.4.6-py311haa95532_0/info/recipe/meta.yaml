@@ -1,0 +1,71 @@
+# This file created by conda-build 3.23.3
+# meta.yaml template originally from:
+# C:\Users\dev-admin\aggregate\colorama-feedstock\recipe, last modified Wed Feb 15 00:51:49 2023
+# ------------------------------------------------
+
+package:
+  name: colorama
+  version: 0.4.6
+source:
+  sha256: 08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44
+  url: https://pypi.io/packages/source/c/colorama/colorama-0.4.6.tar.gz
+build:
+  number: '0'
+  script: c:\\ci_311\\colorama_1676422310965\\_h_env\\python.exe -m pip install .
+    --no-deps --ignore-installed --no-cache-dir -vvv
+  string: py311haa95532_0
+requirements:
+  host:
+    - bzip2 1.0.8 he774522_0
+    - ca-certificates 2023.01.10 haa95532_0
+    - certifi 2022.12.7 py311haa95532_0
+    - editables 0.3 py311haa95532_0
+    - hatchling 1.8.0 py311haa95532_0
+    - libffi 3.4.2 hd77b12b_6
+    - openssl 1.1.1t h2bbff1b_0
+    - packaging 22.0 py311haa95532_0
+    - pathspec 0.9.0 py311haa95532_0
+    - pip 22.3.1 py311haa95532_0
+    - pluggy 1.0.0 py311haa95532_1
+    - python 3.11.0 h966fe2a_1
+    - setuptools 65.5.0 py311haa95532_0
+    - sqlite 3.40.1 h2bbff1b_0
+    - tk 8.6.12 h2bbff1b_0
+    - tomli 2.0.1 py311haa95532_0
+    - tzdata 2022g h04d1e81_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.37.1 pyhd3eb1b0_0
+    - wincertstore 0.2 py311haa95532_0
+    - xz 5.2.10 h8cc25b3_1
+    - zlib 1.2.13 h8cc25b3_0
+  run:
+    - python >=3.11,<3.12.0a0
+test:
+  commands:
+    - pip check
+  imports:
+    - colorama
+  requires:
+    - pip
+about:
+  description: 'colorama is a cross-platform colored terminal text.It makes
+
+    ANSI escape character sequences (for producing colored terminal text
+
+    and cursor positioning) work under MS Windows.
+
+    '
+  dev_url: https://github.com/tartley/colorama
+  doc_url: https://pypi.org/project/colorama/
+  home: https://github.com/tartley/colorama
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE.txt
+  summary: Cross-platform colored terminal text
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - kwilcox
+    - ocefpaf

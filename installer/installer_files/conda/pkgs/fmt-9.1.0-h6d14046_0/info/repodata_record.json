@@ -1,0 +1,20 @@
+{
+  "build": "h6d14046_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "fn": "fmt-9.1.0-h6d14046_0.conda",
+  "license": "MIT",
+  "md5": "fff794057ba79828b0279e76a11f88ef",
+  "name": "fmt",
+  "sha256": "c4d83d09ba86f286eb0b1da27cae79202b97a30d827999e04d1c073ea678f213",
+  "size": 195961,
+  "subdir": "win-64",
+  "timestamp": 1676360398000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/fmt-9.1.0-h6d14046_0.conda",
+  "version": "9.1.0"
+}

@@ -1,0 +1,20 @@
+{
+  "build": "h2bbff1b_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "fn": "libiconv-1.16-h2bbff1b_2.conda",
+  "license": "GPL-3.0-or-later",
+  "md5": "c02693cc6777cb959e3ecee275d8f0ec",
+  "name": "libiconv",
+  "sha256": "0da856533545004bec1f05cea102de1c1d4243f9ec13036b379d8cb7160a40a0",
+  "size": 666760,
+  "subdir": "win-64",
+  "timestamp": 1650983734000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libiconv-1.16-h2bbff1b_2.conda",
+  "version": "1.16"
+}

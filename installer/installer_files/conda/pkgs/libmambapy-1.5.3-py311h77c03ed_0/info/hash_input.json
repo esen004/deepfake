@@ -1,0 +1,6 @@
+{
+  "cxx_compiler": "vs2019",
+  "channel_targets": "defaults",
+  "target_platform": "win-64",
+  "openssl": "3.0"
+}

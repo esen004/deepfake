@@ -1,0 +1,67 @@
+# This file created by conda-build 3.24.0
+# meta.yaml template originally from:
+# C:\b\abs_e3q1maojh6\clone\recipe, last modified Thu Apr 13 17:20:27 2023
+# ------------------------------------------------
+
+package:
+  name: sqlite
+  version: 3.41.2
+source:
+  patches:
+    - expose_symbols.patch
+  sha256: e98c100dd1da4e30fa460761dab7c0b91a50b785e167f8c57acc46514fae9499
+  url: https://www.sqlite.org/2023/sqlite-autoconf-3410200.tar.gz
+build:
+  number: '0'
+  run_exports:
+    - sqlite >=3.41.2,<4.0a0
+  string: h2bbff1b_0
+requirements:
+  build:
+    - m2-msys2-runtime 2.5.0.17080.65c939c 3
+    - m2-patch 2.7.5 2
+    - msys2-conda-epoch 20160418 1
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+  host:
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+  run:
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+  commands:
+    - sqlite3 --version
+    - if not exist %PREFIX%\\Library\bin\sqlite3.dll exit 1
+    - if not exist %PREFIX%\\Library\lib\sqlite3.lib exit 1
+    - if not exist %PREFIX%\\Library\include\sqlite3.h exit 1
+    - if not exist %PREFIX%\\Library\include\sqlite3ext.h exit 1
+about:
+  description: 'SQLite is a self-contained, high-reliability, embedded, full-featured,
+
+    public-domain, SQL database engine. It is the most used database engine
+
+    in the world.
+
+    '
+  dev_url: https://sqlite.org/src/dir?ci=trunk
+  doc_url: https://www.sqlite.org/docs.html
+  home: https://www.sqlite.org/
+  license: blessing
+  license_family: Other
+  license_file: LICENSE.md
+  summary: Implements a self-contained, zero-configuration, SQL database engine
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: e3a98d45-cc3d-4602-bb39-88889b9ade3e
+  recipe-maintainers:
+    - jakirkham
+    - jjhelmus
+    - mingwandroid
+    - msarahan
+    - ocefpaf
+    - snorfalorpagus
+    - xylar
+  remote_url: git@github.com:AnacondaRecipes/sqlite-feedstock.git
+  sha: 6304c37bf71ca903849b5503785f24aeac3da5ab

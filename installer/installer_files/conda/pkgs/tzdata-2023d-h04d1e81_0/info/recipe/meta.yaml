@@ -1,0 +1,68 @@
+# This file created by conda-build 3.24.0
+# meta.yaml template originally from:
+# /feedstock/recipe, last modified Thu Jan  4 15:52:09 2024
+# ------------------------------------------------
+
+package:
+  name: tzdata
+  version: 2023d
+source:
+  - sha256: dbca21970b0a8b8c0ceceec1d7b91fa903be0f6eca5ae732b5329672232a08f3
+    url: https://data.iana.org/time-zones/releases/tzdata2023d.tar.gz
+  - sha256: e9a5f9e118886d2de92b62bb05510a28cc6c058d791c93bd6b84d3292c3c161e
+    url: https://data.iana.org/time-zones/releases/tzcode2023d.tar.gz
+build:
+  ignore_run_exports:
+    - libgcc-ng
+  noarch: generic
+  number: '0'
+  string: h04d1e81_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - _sysroot_linux-64_curr_repodata_hack 3 haa98f57_10
+    - binutils_impl_linux-64 2.38 h2a08ee3_1
+    - binutils_linux-64 2.38.0 hc2dff05_0
+    - gcc_impl_linux-64 11.2.0 h1234567_1
+    - gcc_linux-64 11.2.0 h5c386dc_0
+    - kernel-headers_linux-64 3.10.0 h57e8cba_10
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libgcc-devel_linux-64 11.2.0 h1234567_1
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - make 4.2.1 h1bed415_1
+    - sysroot_linux-64 2.17 h57e8cba_10
+  host: []
+  run: []
+about:
+  description: 'The Time Zone Database (called tz, tzdb or zoneinfo) contains code
+    and
+
+    data that represent the history of local time for many representative
+
+    locations around the globe.  It is updated periodically to reflect
+
+    changes made by political bodies to time zone boundaries, UTC offsets,
+
+    and daylight-saving rules.
+
+    '
+  dev_url: https://github.com/eggert/tz
+  doc_url: https://data.iana.org/time-zones/tz-link.html
+  home: https://www.iana.org/time-zones
+  license: CC-PDDC OR BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: The Time Zone Database (called tz, tzdb or zoneinfo)
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: dbbc9d0b-a477-4f72-9b97-b3e9eb3869be
+  recipe-maintainers:
+    - mbargull
+    - ocefpaf
+    - pganssle
+  remote_url: git@github.com:AnacondaRecipes/tzdata-feedstock.git
+  sha: 16f3c30d069b84f5fbfbaecbb8f1037224e5e41b

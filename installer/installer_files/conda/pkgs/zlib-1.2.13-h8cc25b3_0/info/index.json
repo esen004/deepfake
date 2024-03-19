@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "h8cc25b3_0",
+  "build_number": 0,
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "license": "Zlib",
+  "license_family": "Other",
+  "name": "zlib",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1666595229032,
+  "version": "1.2.13"
+}

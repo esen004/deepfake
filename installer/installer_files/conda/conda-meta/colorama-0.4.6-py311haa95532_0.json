@@ -1,0 +1,54 @@
+{
+  "build": "py311haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\colorama-0.4.6-py311haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/colorama-0.4.6.dist-info/INSTALLER",
+    "Lib/site-packages/colorama-0.4.6.dist-info/METADATA",
+    "Lib/site-packages/colorama-0.4.6.dist-info/RECORD",
+    "Lib/site-packages/colorama-0.4.6.dist-info/REQUESTED",
+    "Lib/site-packages/colorama-0.4.6.dist-info/WHEEL",
+    "Lib/site-packages/colorama-0.4.6.dist-info/direct_url.json",
+    "Lib/site-packages/colorama-0.4.6.dist-info/licenses/LICENSE.txt",
+    "Lib/site-packages/colorama/__init__.py",
+    "Lib/site-packages/colorama/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/colorama/__pycache__/ansi.cpython-311.pyc",
+    "Lib/site-packages/colorama/__pycache__/ansitowin32.cpython-311.pyc",
+    "Lib/site-packages/colorama/__pycache__/initialise.cpython-311.pyc",
+    "Lib/site-packages/colorama/__pycache__/win32.cpython-311.pyc",
+    "Lib/site-packages/colorama/__pycache__/winterm.cpython-311.pyc",
+    "Lib/site-packages/colorama/ansi.py",
+    "Lib/site-packages/colorama/ansitowin32.py",
+    "Lib/site-packages/colorama/initialise.py",
+    "Lib/site-packages/colorama/win32.py",
+    "Lib/site-packages/colorama/winterm.py",
+    ".nonadmin"
+  ],
+  "fn": "colorama-0.4.6-py311haa95532_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\colorama-0.4.6-py311haa95532_0",
+    "type": 1
+  },
+  "md5": "55b2cd205f6364edfc2bb8e127bf1452",
+  "name": "colorama",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\colorama-0.4.6-py311haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::colorama==0.4.6=py311haa95532_0[md5=55b2cd205f6364edfc2bb8e127bf1452]",
+  "sha256": "90bc12aa2689b460e9f3cc5ec0402e513461ae115175b7485d4577a9b39549ee",
+  "size": 36675,
+  "subdir": "win-64",
+  "timestamp": 1676422341000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/colorama-0.4.6-py311haa95532_0.conda",
+  "version": "0.4.6"
+}

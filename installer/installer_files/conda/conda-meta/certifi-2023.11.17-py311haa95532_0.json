@@ -1,0 +1,51 @@
+{
+  "build": "py311haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\certifi-2023.11.17-py311haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/certifi-2023.11.17.dist-info/INSTALLER",
+    "Lib/site-packages/certifi-2023.11.17.dist-info/LICENSE",
+    "Lib/site-packages/certifi-2023.11.17.dist-info/METADATA",
+    "Lib/site-packages/certifi-2023.11.17.dist-info/RECORD",
+    "Lib/site-packages/certifi-2023.11.17.dist-info/REQUESTED",
+    "Lib/site-packages/certifi-2023.11.17.dist-info/WHEEL",
+    "Lib/site-packages/certifi-2023.11.17.dist-info/direct_url.json",
+    "Lib/site-packages/certifi-2023.11.17.dist-info/top_level.txt",
+    "Lib/site-packages/certifi/__init__.py",
+    "Lib/site-packages/certifi/__main__.py",
+    "Lib/site-packages/certifi/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/certifi/__pycache__/__main__.cpython-311.pyc",
+    "Lib/site-packages/certifi/__pycache__/core.cpython-311.pyc",
+    "Lib/site-packages/certifi/cacert.pem",
+    "Lib/site-packages/certifi/core.py",
+    "Lib/site-packages/certifi/py.typed",
+    ".nonadmin"
+  ],
+  "fn": "certifi-2023.11.17-py311haa95532_0.conda",
+  "license": "MPL-2.0",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\certifi-2023.11.17-py311haa95532_0",
+    "type": 1
+  },
+  "md5": "2c23200dbae02e8d0b5b21c128c54d0f",
+  "name": "certifi",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\certifi-2023.11.17-py311haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::certifi==2023.11.17=py311haa95532_0[md5=2c23200dbae02e8d0b5b21c128c54d0f]",
+  "sha256": "19700a3e1987f7c41fe62ef096b609ea11d759a013149f9995f34161d3ee57a1",
+  "size": 163512,
+  "subdir": "win-64",
+  "timestamp": 1700501881000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/certifi-2023.11.17-py311haa95532_0.conda",
+  "version": "2023.11.17"
+}

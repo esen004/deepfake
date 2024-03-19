@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "h23ce68f_0",
+  "build_number": 0,
+  "depends": [
+    "pcre2 >=10.42,<10.43.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "libsolv",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1694099699117,
+  "version": "0.7.24"
+}

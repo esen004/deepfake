@@ -1,0 +1,48 @@
+{
+  "build": "py311haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0",
+    "win_inet_pton"
+  ],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\pysocks-1.7.1-py311haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/PySocks-1.7.1.dist-info/INSTALLER",
+    "Lib/site-packages/PySocks-1.7.1.dist-info/LICENSE",
+    "Lib/site-packages/PySocks-1.7.1.dist-info/METADATA",
+    "Lib/site-packages/PySocks-1.7.1.dist-info/RECORD",
+    "Lib/site-packages/PySocks-1.7.1.dist-info/REQUESTED",
+    "Lib/site-packages/PySocks-1.7.1.dist-info/WHEEL",
+    "Lib/site-packages/PySocks-1.7.1.dist-info/direct_url.json",
+    "Lib/site-packages/PySocks-1.7.1.dist-info/top_level.txt",
+    "Lib/site-packages/__pycache__/socks.cpython-311.pyc",
+    "Lib/site-packages/__pycache__/sockshandler.cpython-311.pyc",
+    "Lib/site-packages/socks.py",
+    "Lib/site-packages/sockshandler.py",
+    ".nonadmin"
+  ],
+  "fn": "pysocks-1.7.1-py311haa95532_0.conda",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\pysocks-1.7.1-py311haa95532_0",
+    "type": 1
+  },
+  "md5": "83206dfd8eb48ddd4acb273a89a26bb6",
+  "name": "pysocks",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\pysocks-1.7.1-py311haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::pysocks==1.7.1=py311haa95532_0[md5=83206dfd8eb48ddd4acb273a89a26bb6]",
+  "sha256": "e69aeaf2ac152ab5d3dbaf9897760552457a87d4648334458740ea7dfdaab115",
+  "size": 37059,
+  "subdir": "win-64",
+  "timestamp": 1676426019000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pysocks-1.7.1-py311haa95532_0.conda",
+  "version": "1.7.1"
+}

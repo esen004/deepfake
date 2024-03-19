@@ -1,0 +1,57 @@
+# This file created by conda-build 3.24.0
+# ------------------------------------------------
+
+package:
+  name: pybind11-abi
+  version: 4
+source:
+  fn: pybind11-2.10.4.tar.gz
+  sha256: 832e2f309c57da9c1e6d4542dedd34b24e4192ecb4d62f6f4866a737454c9970
+  url: https://github.com/pybind/pybind11/archive/v2.10.4.tar.gz
+build:
+  noarch: generic
+  number: 1
+  run_exports:
+    - pybind11-abi ==4
+  string: hd3eb1b0_1
+requirements:
+  build: []
+  run: []
+test:
+  commands:
+    - if [[ $(grep "#[[:blank:]]*define PYBIND11_INTERNALS_VERSION" include/pybind11/detail/internals.h
+      | rev | cut -d' ' -f1) != "4" ]]; then exit 1; fi
+  source_files:
+    - include/pybind11/detail/internals.h
+about:
+  description: 'pybind11 is a lightweight header-only library that exposes C++ types
+
+    in Python and vice versa, mainly to create Python bindings of existing
+
+    C++ code. Its goals and syntax are similar to the excellent Boost.Python
+
+    library by David Abrahams: to minimize boilerplate code in traditional
+
+    extension modules by inferring type information using compile-time
+
+    introspection.
+
+    '
+  dev_url: https://github.com/pybind/pybind11/
+  doc_url: https://pybind11.readthedocs.io/
+  home: https://github.com/pybind/pybind11/
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: Seamless operability between C++11 and Python
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 9fd2138d-6552-4b49-8dc5-ff442fc7e076
+  recipe-maintainers:
+    - SylvainCorlay
+    - ax3l
+    - henryiii
+    - wjakob
+  remote_url: git@github.com:AnacondaRecipes/pybind11-feedstock.git
+  sha: 55a19aa8a70c59e50f749af022e4c0269d0e4f21

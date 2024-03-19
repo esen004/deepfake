@@ -1,0 +1,15 @@
+Library/bin/libzstd.dll
+Library/bin/zstd.dll
+Library/bin/zstd.exe
+Library/include/zdict.h
+Library/include/zstd.h
+Library/include/zstd_errors.h
+Library/lib/cmake/zstd/zstdConfig.cmake
+Library/lib/cmake/zstd/zstdConfigVersion.cmake
+Library/lib/cmake/zstd/zstdTargets-release.cmake
+Library/lib/cmake/zstd/zstdTargets.cmake
+Library/lib/libzstd.lib
+Library/lib/libzstd_static.lib
+Library/lib/pkgconfig/libzstd.pc
+Library/lib/zstd.lib
+Library/lib/zstd_static.lib

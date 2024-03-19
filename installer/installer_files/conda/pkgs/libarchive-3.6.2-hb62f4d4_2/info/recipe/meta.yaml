@@ -1,0 +1,120 @@
+# This file created by conda-build 3.24.0
+# meta.yaml template originally from:
+# C:\b\abs_bb3_2y0re2\clone\recipe, last modified Sat Jun  3 00:13:26 2023
+# ------------------------------------------------
+
+package:
+  name: libarchive
+  version: 3.6.2
+source:
+  patches:
+    - patches/0001-Add-lib-to-CMAKE_FIND_LIBRARY_PREFIXES-for-lzma.patch
+    - patches/0003-VC9-compatibility-test-for-BCryptDeriveKeyPBKDF2.patch
+    - patches/0004-VC9-compatibility-define-BCRYPT_SUCCESS.patch
+    - patches/0006-VC-openssl-define-inline-as-__inline.patch
+    - patches/0007-CMake-VC9-compatibility-ignore-some-warnings.patch
+    - patches/0008-VC9-compatibility-remove-C99.patch
+    - patches/0009-CMake-Force-Multi-threaded-DLL-runtime.patch
+  sha256: ba6d02f15ba04aba9c23fd5f236bb234eab9d5209e95d1c4df85c44d5f19b9b3
+  url: https://github.com/libarchive/libarchive/releases/download/v3.6.2/libarchive-3.6.2.tar.gz
+build:
+  number: '2'
+  run_exports:
+    - libarchive >=3.6.2,<3.7.0a0
+  string: hb62f4d4_2
+requirements:
+  build:
+    - bzip2 1.0.8 he774522_0
+    - cmake 3.22.1 h9ad04ae_0
+    - libuv 1.44.2 h2bbff1b_0
+    - lz4-c 1.9.4 h2bbff1b_0
+    - m2-msys2-runtime 2.5.0.17080.65c939c 3
+    - m2-patch 2.7.5 2
+    - msys2-conda-epoch 20160418 1
+    - ninja-base 1.10.2 h6d14046_5
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+    - xz 5.4.2 h8cc25b3_0
+    - zlib 1.2.13 h8cc25b3_0
+    - zstd 1.5.5 hd43e919_0
+  host:
+    - bzip2 1.0.8 he774522_0
+    - ca-certificates 2023.01.10 haa95532_0
+    - libiconv 1.16 h2bbff1b_2
+    - libxml2 2.10.3 h0ad7f3c_0
+    - lz4-c 1.9.4 h2bbff1b_0
+    - openssl 3.0.8 h2bbff1b_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - xz 5.4.2 h8cc25b3_0
+    - zlib 1.2.13 h8cc25b3_0
+    - zstd 1.5.2 h19a0ad4_0
+  run:
+    - bzip2 >=1.0.8,<2.0a0
+    - libiconv >=1.16,<2.0a0
+    - libxml2 >=2.10.3,<2.11.0a0
+    - lz4-c >=1.9.4,<1.10.0a0
+    - openssl 3.*
+    - openssl >=3.0.8,<4.0a0
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+    - xz >=5.4.2,<6.0a0
+    - zlib >=1.2.13,<1.3.0a0
+    - zstd >=1.5.2,<1.6.0a0
+test:
+  commands:
+    - bsdcat --version
+    - bsdcpio --version
+    - bsdtar --version
+    - pushd test-archives
+    - bsdtar -vxf hello_world.xar 2>&1 | rg "x hello_world"
+    - bsdtar -vxf archive.7z 2>&1 | rg "x 7zip-archive"
+    - bsdtar -vxf hello_world.tar.zst 2>&1 | rg "greets"
+    - popd
+  files:
+    - test-archives/archive.7z
+    - test-archives/hello_world.tar.zst
+    - test-archives/hello_world.xar
+  requires:
+    - ripgrep
+about:
+  description: 'Libarchive is an open-source BSD-licensed C programming library that
+    provides streaming access
+
+    to a variety of different archive formats, including tar, cpio, pax, Zip, and
+    ISO9660 images.
+
+    The distribution also includes bsdtar and bsdcpio, full-featured implementations
+    of tar and cpio
+
+    that use libarchive.
+
+    When reading archives, libarchive uses a robust automatic format detector that
+    can automatically handle archives
+
+    that have been compressed with gzip, bzip2, xz, lzip, and several other popular
+    compression algorithms.
+
+    '
+  dev_url: https://github.com/libarchive/libarchive
+  doc_url: https://github.com/libarchive/libarchive/wiki
+  home: https://libarchive.org/
+  license: BSD-2-Clause
+  license_family: BSD
+  license_file: COPYING
+  summary: Multi-format archive and compression library
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: bb0ff1d1-c7e4-4245-9615-c24518c9ef0e
+  recipe-maintainers:
+    - jakirkham
+    - mingwandroid
+    - ocefpaf
+  remote_url: git@github.com:AnacondaRecipes/libarchive-feedstock.git
+  sha: 6ae744557e1e9dff7f62d3c9764bf013fb23a66c
+  skip-lints:
+    - host_section_needs_exact_pinnings
+    - missing_tests

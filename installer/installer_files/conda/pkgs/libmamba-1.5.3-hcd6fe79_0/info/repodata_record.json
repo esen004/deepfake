@@ -1,0 +1,30 @@
+{
+  "build": "hcd6fe79_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "bzip2 >=1.0.8,<2.0a0",
+    "fmt >=9.1.0,<10.0a0",
+    "libarchive >=3.6.2,<3.7.0a0",
+    "libcurl >=8.1.1,<9.0a0",
+    "libsolv >=0.7.24,<0.8.0a0",
+    "openssl >=3.0.11,<4.0a0",
+    "reproc >=14.2,<15.0a0",
+    "reproc-cpp >=14.2,<15.0a0",
+    "vc >=14.2,<15.0a0",
+    "vs2015_runtime >=14.27.29016,<15.0a0",
+    "yaml-cpp >=0.8.0,<0.9.0a0",
+    "zstd >=1.5.2,<1.6.0a0"
+  ],
+  "fn": "libmamba-1.5.3-hcd6fe79_0.conda",
+  "license": "BSD-3-Clause",
+  "md5": "97b2548b1865c977bb470cc8362b4690",
+  "name": "libmamba",
+  "sha256": "aef977773d1f0cd442ea2ae1e402f2dfe16bc61c165df2619d2e197b88d65f0f",
+  "size": 4022491,
+  "subdir": "win-64",
+  "timestamp": 1698783125000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libmamba-1.5.3-hcd6fe79_0.conda",
+  "version": "1.5.3"
+}

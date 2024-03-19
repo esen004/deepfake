@@ -1,0 +1,47 @@
+{
+  "build": "hd77b12b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\libffi-3.4.4-hd77b12b_0",
+  "features": "",
+  "files": [
+    "Library/bin/ffi-7.dll",
+    "Library/bin/ffi-8.dll",
+    "Library/bin/ffi.dll",
+    "Library/include/ffi.h",
+    "Library/include/ffitarget.h",
+    "Library/lib/ffi.lib",
+    "Library/lib/libffi.dll.lib",
+    "Library/lib/libffi.lib",
+    "Library/lib/pkgconfig/libffi.pc",
+    "Library/share/libffi/libffiTargets-release.cmake",
+    "Library/share/libffi/libffiTargets.cmake",
+    ".nonadmin"
+  ],
+  "fn": "libffi-3.4.4-hd77b12b_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\libffi-3.4.4-hd77b12b_0",
+    "type": 1
+  },
+  "md5": "0a01fe57e6261e7c574e43f2b1385f48",
+  "name": "libffi",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\libffi-3.4.4-hd77b12b_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::libffi==3.4.4=hd77b12b_0[md5=0a01fe57e6261e7c574e43f2b1385f48]",
+  "sha256": "e794277146eedbce79b23dbc3cee877e9222bac756a9bbfec971a14a667d10cb",
+  "size": 115307,
+  "subdir": "win-64",
+  "timestamp": 1683716620000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libffi-3.4.4-hd77b12b_0.conda",
+  "version": "3.4.4"
+}

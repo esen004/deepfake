@@ -1,0 +1,73 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/reproc.dll",
+      "path_type": "hardlink",
+      "sha256": "9af861aacb84a88872e8aeb765a4e7119ccd8b52f1a949689d37c31598ed32fa",
+      "size_in_bytes": 27648
+    },
+    {
+      "_path": "Library/include/reproc/drain.h",
+      "path_type": "hardlink",
+      "sha256": "85c4cf3387d3e3a05a737687d086c9e7cf241f2be9c4f55ddc566a9d1baecb99",
+      "size_in_bytes": 2931
+    },
+    {
+      "_path": "Library/include/reproc/export.h",
+      "path_type": "hardlink",
+      "sha256": "adaf50bb4c4964fc17295f12d60dd128c7b4a2633b9dfbd1507dce8089371051",
+      "size_in_bytes": 451
+    },
+    {
+      "_path": "Library/include/reproc/reproc.h",
+      "path_type": "hardlink",
+      "sha256": "4c7bfdc442b8ad363c0c43a5bb8a22f3352fb5df23a302992d8c9933ea9046a4",
+      "size_in_bytes": 18656
+    },
+    {
+      "_path": "Library/include/reproc/run.h",
+      "path_type": "hardlink",
+      "sha256": "9979e373828d243e2261039a52a0f695f27b0e5eaf0cda2e00531f46094a2b54",
+      "size_in_bytes": 882
+    },
+    {
+      "_path": "Library/lib/cmake/reproc/reproc-config-version.cmake",
+      "path_type": "hardlink",
+      "sha256": "1a9fb68e08a18c4a76290dc09f4742382db124ac0c087dcf67427d1c8ef9a996",
+      "size_in_bytes": 2951
+    },
+    {
+      "_path": "Library/lib/cmake/reproc/reproc-config.cmake",
+      "path_type": "hardlink",
+      "sha256": "1695aa33f9735fe3d19223481a7e3d5b71f9cced443795481a2c71f75e344fd3",
+      "size_in_bytes": 1137
+    },
+    {
+      "_path": "Library/lib/cmake/reproc/reproc-targets-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "e9645954376324f745c33aab04d0f82bfbada83fe63eb99d76736b134ec19617",
+      "size_in_bytes": 854
+    },
+    {
+      "_path": "Library/lib/cmake/reproc/reproc-targets.cmake",
+      "path_type": "hardlink",
+      "sha256": "18aca61940c60b4422f5e7101f2bc0a5c3c898b108084b51223124f67f05ad72",
+      "size_in_bytes": 3411
+    },
+    {
+      "_path": "Library/lib/pkgconfig/reproc.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "C:/ci/reproc_1647441941593/_h_env",
+      "sha256": "b56ef566bc9dfb8de4a5b55b4ae4e33f86acfeb992baa17b2135c3b1bc82f17e",
+      "size_in_bytes": 339
+    },
+    {
+      "_path": "Library/lib/reproc.lib",
+      "path_type": "hardlink",
+      "sha256": "ebe6b3676e4dae1d36f8ff6b9683821df580b41d896254f1ae9284ccf3916dca",
+      "size_in_bytes": 6688
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,71 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/ffi-7.dll",
+      "path_type": "hardlink",
+      "sha256": "812eeff28941d7a7f93cd64ec880eb8e773f613536ccba9d3cb1049dd884b027",
+      "size_in_bytes": 28160
+    },
+    {
+      "_path": "Library/bin/ffi-8.dll",
+      "path_type": "hardlink",
+      "sha256": "812eeff28941d7a7f93cd64ec880eb8e773f613536ccba9d3cb1049dd884b027",
+      "size_in_bytes": 28160
+    },
+    {
+      "_path": "Library/bin/ffi.dll",
+      "path_type": "hardlink",
+      "sha256": "812eeff28941d7a7f93cd64ec880eb8e773f613536ccba9d3cb1049dd884b027",
+      "size_in_bytes": 28160
+    },
+    {
+      "_path": "Library/include/ffi.h",
+      "path_type": "hardlink",
+      "sha256": "d18da07658ad18d902cdc5b0ebccc08a9d142cedf9229c31e62a6f57db21ded0",
+      "size_in_bytes": 14824
+    },
+    {
+      "_path": "Library/include/ffitarget.h",
+      "path_type": "hardlink",
+      "sha256": "45e4fd2585aaed711e4fa3d1377b70c8e54dcdc56bdf402fa23a8816d19cc58a",
+      "size_in_bytes": 4928
+    },
+    {
+      "_path": "Library/lib/ffi.lib",
+      "path_type": "hardlink",
+      "sha256": "a0880dd46e06d3dcdf7cca5a9aff8794dd7499841d44fe2881323b28c3b80f4b",
+      "size_in_bytes": 11016
+    },
+    {
+      "_path": "Library/lib/libffi.dll.lib",
+      "path_type": "hardlink",
+      "sha256": "a0880dd46e06d3dcdf7cca5a9aff8794dd7499841d44fe2881323b28c3b80f4b",
+      "size_in_bytes": 11016
+    },
+    {
+      "_path": "Library/lib/libffi.lib",
+      "path_type": "hardlink",
+      "sha256": "a0880dd46e06d3dcdf7cca5a9aff8794dd7499841d44fe2881323b28c3b80f4b",
+      "size_in_bytes": 11016
+    },
+    {
+      "_path": "Library/lib/pkgconfig/libffi.pc",
+      "path_type": "hardlink",
+      "sha256": "2ec4ed687e90284387101a6afffba12abacfb784852131640c0c54920484ce55",
+      "size_in_bytes": 285
+    },
+    {
+      "_path": "Library/share/libffi/libffiTargets-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "4c6c1190e1b052a001ad884ade077b5cc68d7dec27e8594590ff76b991b3b15f",
+      "size_in_bytes": 1304
+    },
+    {
+      "_path": "Library/share/libffi/libffiTargets.cmake",
+      "path_type": "hardlink",
+      "sha256": "150e790757d9504945b919161846a1117b2baf9911207b9d79736d606e7f412b",
+      "size_in_bytes": 3251
+    }
+  ],
+  "paths_version": 1
+}

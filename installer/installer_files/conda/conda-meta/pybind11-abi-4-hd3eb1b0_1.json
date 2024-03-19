@@ -1,0 +1,35 @@
+{
+  "build": "hd3eb1b0_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\pybind11-abi-4-hd3eb1b0_1",
+  "features": "",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "pybind11-abi-4-hd3eb1b0_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\pybind11-abi-4-hd3eb1b0_1",
+    "type": 1
+  },
+  "md5": "4e440592a9fb70c880b74621aee6c967",
+  "name": "pybind11-abi",
+  "noarch": "generic",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\pybind11-abi-4-hd3eb1b0_1.conda",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/noarch::pybind11-abi==4=hd3eb1b0_1[md5=4e440592a9fb70c880b74621aee6c967]",
+  "sha256": "efcd78fff9f39d8d0dc5db753ba1b523f997768f9688ed6d6dcf8e9951484cc1",
+  "size": 13977,
+  "subdir": "noarch",
+  "timestamp": 1682965564000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pybind11-abi-4-hd3eb1b0_1.conda",
+  "version": "4"
+}

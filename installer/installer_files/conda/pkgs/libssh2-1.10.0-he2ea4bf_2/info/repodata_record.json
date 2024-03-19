@@ -1,0 +1,21 @@
+{
+  "build": "he2ea4bf_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "openssl >=3.0.8,<4.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "fn": "libssh2-1.10.0-he2ea4bf_2.conda",
+  "license": "BSD-3-Clause",
+  "md5": "b038b8e7c34d1872b672e1f1075b18f4",
+  "name": "libssh2",
+  "sha256": "e8bd542a1d0b960ba5faecbf22ff9678b3741087506cfa5088805ebfac0765bd",
+  "size": 241231,
+  "subdir": "win-64",
+  "timestamp": 1686933095000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libssh2-1.10.0-he2ea4bf_2.conda",
+  "version": "1.10.0"
+}

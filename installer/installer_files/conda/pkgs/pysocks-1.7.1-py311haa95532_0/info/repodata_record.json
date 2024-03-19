@@ -1,0 +1,20 @@
+{
+  "build": "py311haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0",
+    "win_inet_pton"
+  ],
+  "fn": "pysocks-1.7.1-py311haa95532_0.conda",
+  "license": "BSD 3-Clause",
+  "md5": "83206dfd8eb48ddd4acb273a89a26bb6",
+  "name": "pysocks",
+  "sha256": "e69aeaf2ac152ab5d3dbaf9897760552457a87d4648334458740ea7dfdaab115",
+  "size": 37059,
+  "subdir": "win-64",
+  "timestamp": 1676426019000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pysocks-1.7.1-py311haa95532_0.conda",
+  "version": "1.7.1"
+}

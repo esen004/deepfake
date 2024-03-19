@@ -1,0 +1,143 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\archspec-0.2.1-pyhd3eb1b0_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/archspec-0.2.1.dist-info/INSTALLER",
+    "Lib/site-packages/archspec-0.2.1.dist-info/METADATA",
+    "Lib/site-packages/archspec-0.2.1.dist-info/RECORD",
+    "Lib/site-packages/archspec-0.2.1.dist-info/REQUESTED",
+    "Lib/site-packages/archspec-0.2.1.dist-info/WHEEL",
+    "Lib/site-packages/archspec-0.2.1.dist-info/direct_url.json",
+    "Lib/site-packages/archspec-0.2.1.dist-info/entry_points.txt",
+    "Lib/site-packages/archspec/__init__.py",
+    "Lib/site-packages/archspec/__main__.py",
+    "Lib/site-packages/archspec/cli.py",
+    "Lib/site-packages/archspec/cpu/__init__.py",
+    "Lib/site-packages/archspec/cpu/alias.py",
+    "Lib/site-packages/archspec/cpu/detect.py",
+    "Lib/site-packages/archspec/cpu/microarchitecture.py",
+    "Lib/site-packages/archspec/cpu/schema.py",
+    "Lib/site-packages/archspec/json/.github/workflows/validation.yml",
+    "Lib/site-packages/archspec/json/.pytest_cache/.gitignore",
+    "Lib/site-packages/archspec/json/.pytest_cache/CACHEDIR.TAG",
+    "Lib/site-packages/archspec/json/.pytest_cache/README.md",
+    "Lib/site-packages/archspec/json/.pytest_cache/v/cache/nodeids",
+    "Lib/site-packages/archspec/json/.pytest_cache/v/cache/stepwise",
+    "Lib/site-packages/archspec/json/COPYRIGHT",
+    "Lib/site-packages/archspec/json/LICENSE-APACHE",
+    "Lib/site-packages/archspec/json/LICENSE-MIT",
+    "Lib/site-packages/archspec/json/NOTICE",
+    "Lib/site-packages/archspec/json/README.md",
+    "Lib/site-packages/archspec/json/cpu/microarchitectures.json",
+    "Lib/site-packages/archspec/json/cpu/microarchitectures_schema.json",
+    "Lib/site-packages/archspec/json/tests/targets/bgq-rhel6-power7",
+    "Lib/site-packages/archspec/json/tests/targets/darwin-bigsur-m1",
+    "Lib/site-packages/archspec/json/tests/targets/darwin-mojave-haswell",
+    "Lib/site-packages/archspec/json/tests/targets/darwin-mojave-ivybridge",
+    "Lib/site-packages/archspec/json/tests/targets/darwin-mojave-skylake",
+    "Lib/site-packages/archspec/json/tests/targets/darwin-monterey-m1",
+    "Lib/site-packages/archspec/json/tests/targets/darwin-monterey-m2",
+    "Lib/site-packages/archspec/json/tests/targets/linux-amazon-cortex_a72",
+    "Lib/site-packages/archspec/json/tests/targets/linux-amazon-neoverse_n1",
+    "Lib/site-packages/archspec/json/tests/targets/linux-amazon-neoverse_v1",
+    "Lib/site-packages/archspec/json/tests/targets/linux-asahi-m1",
+    "Lib/site-packages/archspec/json/tests/targets/linux-asahi-m2",
+    "Lib/site-packages/archspec/json/tests/targets/linux-centos7-cascadelake",
+    "Lib/site-packages/archspec/json/tests/targets/linux-centos7-power8le",
+    "Lib/site-packages/archspec/json/tests/targets/linux-centos7-thunderx2",
+    "Lib/site-packages/archspec/json/tests/targets/linux-rhel6-piledriver",
+    "Lib/site-packages/archspec/json/tests/targets/linux-rhel7-broadwell",
+    "Lib/site-packages/archspec/json/tests/targets/linux-rhel7-haswell",
+    "Lib/site-packages/archspec/json/tests/targets/linux-rhel7-ivybridge",
+    "Lib/site-packages/archspec/json/tests/targets/linux-rhel7-skylake_avx512",
+    "Lib/site-packages/archspec/json/tests/targets/linux-rhel7-x86_64_v3",
+    "Lib/site-packages/archspec/json/tests/targets/linux-rhel7-zen",
+    "Lib/site-packages/archspec/json/tests/targets/linux-rocky8-a64fx",
+    "Lib/site-packages/archspec/json/tests/targets/linux-rocky8.5-zen4",
+    "Lib/site-packages/archspec/json/tests/targets/linux-scientific7-k10",
+    "Lib/site-packages/archspec/json/tests/targets/linux-scientific7-piledriver",
+    "Lib/site-packages/archspec/json/tests/targets/linux-scientificfermi6-bulldozer",
+    "Lib/site-packages/archspec/json/tests/targets/linux-scientificfermi6-piledriver",
+    "Lib/site-packages/archspec/json/tests/targets/linux-sifive-u74mc",
+    "Lib/site-packages/archspec/json/tests/targets/linux-ubuntu18.04-broadwell",
+    "Lib/site-packages/archspec/json/tests/targets/linux-ubuntu20.04-zen3",
+    ".nonadmin",
+    "Lib/site-packages/archspec/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/archspec/__pycache__/__main__.cpython-311.pyc",
+    "Lib/site-packages/archspec/__pycache__/cli.cpython-311.pyc",
+    "Lib/site-packages/archspec/cpu/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/archspec/cpu/__pycache__/alias.cpython-311.pyc",
+    "Lib/site-packages/archspec/cpu/__pycache__/detect.cpython-311.pyc",
+    "Lib/site-packages/archspec/cpu/__pycache__/microarchitecture.cpython-311.pyc",
+    "Lib/site-packages/archspec/cpu/__pycache__/schema.cpython-311.pyc",
+    "Scripts/archspec-script.py",
+    "Scripts/archspec.exe"
+  ],
+  "fn": "archspec-0.2.1-pyhd3eb1b0_0.conda",
+  "license": "MIT OR Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\archspec-0.2.1-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "a3b3d60061c6807986969b7f7154a0b3",
+  "name": "archspec",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\archspec-0.2.1-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/archspec/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/archspec/__pycache__/__main__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/archspec/__pycache__/cli.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/archspec/cpu/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/archspec/cpu/__pycache__/alias.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/archspec/cpu/__pycache__/detect.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/archspec/cpu/__pycache__/microarchitecture.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/archspec/cpu/__pycache__/schema.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/archspec-script.py",
+        "path_type": "windows_python_entry_point_script"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/noarch::archspec==0.2.1=pyhd3eb1b0_0[md5=a3b3d60061c6807986969b7f7154a0b3]",
+  "sha256": "2d539e458198ad632e6deb56ce88e0f4452f04b94f20558daffd09e5d315cac4",
+  "size": 39827,
+  "subdir": "noarch",
+  "timestamp": 1697725805000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/archspec-0.2.1-pyhd3eb1b0_0.conda",
+  "version": "0.2.1"
+}

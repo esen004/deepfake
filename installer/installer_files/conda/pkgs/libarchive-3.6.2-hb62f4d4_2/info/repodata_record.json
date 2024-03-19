@@ -1,0 +1,29 @@
+{
+  "build": "hb62f4d4_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "bzip2 >=1.0.8,<2.0a0",
+    "libiconv >=1.16,<2.0a0",
+    "libxml2 >=2.10.3,<2.11.0a0",
+    "lz4-c >=1.9.4,<1.10.0a0",
+    "openssl 3.*",
+    "openssl >=3.0.8,<4.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0",
+    "xz >=5.4.2,<6.0a0",
+    "zlib >=1.2.13,<1.3.0a0",
+    "zstd >=1.5.2,<1.6.0a0"
+  ],
+  "fn": "libarchive-3.6.2-hb62f4d4_2.conda",
+  "license": "BSD-2-Clause",
+  "md5": "d2c4edab37335709e240b479f109c597",
+  "name": "libarchive",
+  "sha256": "2526e98c21c3baa2f9461574228a7e66341e5f196f41bd7e2ffbe2edcb598204",
+  "size": 1878773,
+  "subdir": "win-64",
+  "timestamp": 1685747992000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libarchive-3.6.2-hb62f4d4_2.conda",
+  "version": "3.6.2"
+}

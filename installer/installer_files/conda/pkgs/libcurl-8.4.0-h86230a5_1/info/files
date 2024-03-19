@@ -1,0 +1,15 @@
+Library/bin/libcurl.dll
+Library/include/curl/curl.h
+Library/include/curl/curlver.h
+Library/include/curl/easy.h
+Library/include/curl/header.h
+Library/include/curl/mprintf.h
+Library/include/curl/multi.h
+Library/include/curl/options.h
+Library/include/curl/stdcheaders.h
+Library/include/curl/system.h
+Library/include/curl/typecheck-gcc.h
+Library/include/curl/urlapi.h
+Library/include/curl/websockets.h
+Library/lib/libcurl.exp
+Library/lib/libcurl.lib

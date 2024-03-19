@@ -1,0 +1,62 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\000039r2sdd\tmp\build\80754af9\rsync-recipes\bzip2-1.0.8-c_compiler_vs2017-on-winbuilder, last modified Mon Jul 15 12:34:04 2019
+# ------------------------------------------------
+
+package:
+    name: bzip2
+    version: 1.0.8
+source:
+    patches:
+        - 0001-cross.patch
+    sha256: ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269
+    url: https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - bzip2 >=1.0.8,<2.0a0
+    string: he774522_0
+requirements:
+    build:
+        - vs2017_win-64 19.15.26726 hb4ce483_4
+        - jom 1.1.2 h3bd88b9_0
+    host:
+        - vs2015_runtime 14.15.26706 h3a45250_4
+        - vc 14.1 h0510ff6_4
+    run:
+        - vc >=14.1,<15.0a0
+test:
+    commands:
+        - if not exist %LIBRARY_INC%\\bzlib.h exit 1
+        - if not exist %LIBRARY_LIB%\\bzip2.lib exit 1
+        - if not exist %LIBRARY_BIN%\\bzip2.dll exit 1
+        - if not exist %LIBRARY_LIB%\\libbz2.lib exit 1
+        - if not exist %LIBRARY_BIN%\\libbz2.dll exit 1
+        - if not exist %LIBRARY_LIB%\\bzip2_static.lib exit 1
+        - if not exist %LIBRARY_LIB%\\libbz2_static.lib exit 1
+about:
+    description: 'Bzip2 is a freely available high-quality data compressor. It typically
+
+        compresses files to within 10% to 15% of the best available techniques,
+
+        whilst being around twice as fast at compression and six times faster
+
+        at decompression.
+
+        '
+    doc_url: http://www.bzip.org/docs.html
+    home: http://www.bzip.org/
+    license: bzip2
+    license_family: BSD
+    license_file: LICENSE
+    summary: high-quality data compressor
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jjhelmus
+        - jlanga
+        - mingwandroid
+        - msarahan
+        - pelson

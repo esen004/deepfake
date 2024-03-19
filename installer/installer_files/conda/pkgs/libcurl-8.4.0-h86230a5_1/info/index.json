@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "h86230a5_1",
+  "build_number": 1,
+  "depends": [
+    "libssh2 >=1.10.0",
+    "libssh2 >=1.10.0,<2.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0",
+    "zlib >=1.2.13,<1.3.0a0"
+  ],
+  "license": "curl",
+  "license_family": "MIT",
+  "name": "libcurl",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1701978531587,
+  "version": "8.4.0"
+}

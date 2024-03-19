@@ -1,0 +1,45 @@
+{
+  "build": "py311haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\win_inet_pton-1.1.0-py311haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/__pycache__/win_inet_pton.cpython-311.pyc",
+    "Lib/site-packages/win_inet_pton-1.1.0.dist-info/INSTALLER",
+    "Lib/site-packages/win_inet_pton-1.1.0.dist-info/LICENSE",
+    "Lib/site-packages/win_inet_pton-1.1.0.dist-info/METADATA",
+    "Lib/site-packages/win_inet_pton-1.1.0.dist-info/RECORD",
+    "Lib/site-packages/win_inet_pton-1.1.0.dist-info/REQUESTED",
+    "Lib/site-packages/win_inet_pton-1.1.0.dist-info/WHEEL",
+    "Lib/site-packages/win_inet_pton-1.1.0.dist-info/direct_url.json",
+    "Lib/site-packages/win_inet_pton-1.1.0.dist-info/top_level.txt",
+    "Lib/site-packages/win_inet_pton.py",
+    ".nonadmin"
+  ],
+  "fn": "win_inet_pton-1.1.0-py311haa95532_0.conda",
+  "license": "PUBLIC-DOMAIN",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\win_inet_pton-1.1.0-py311haa95532_0",
+    "type": 1
+  },
+  "md5": "c14f98db9c0491c2ec282eb5af3b4f67",
+  "name": "win_inet_pton",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\win_inet_pton-1.1.0-py311haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::win_inet_pton==1.1.0=py311haa95532_0[md5=c14f98db9c0491c2ec282eb5af3b4f67]",
+  "sha256": "c368b2e32e464a5e6ab6e1985ea38dfaad995b7de2da511a25ffd255dd6b7c5f",
+  "size": 10481,
+  "subdir": "win-64",
+  "timestamp": 1676425485000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/win_inet_pton-1.1.0-py311haa95532_0.conda",
+  "version": "1.1.0"
+}

@@ -1,0 +1,10 @@
+Library/bin/zlib.dll
+Library/include/zconf.h
+Library/include/zlib.h
+Library/lib/pkgconfig/zlib.pc
+Library/lib/z.lib
+Library/lib/zdll.lib
+Library/lib/zlib.lib
+Library/lib/zlibstatic.lib
+Library/share/man/man3/zlib.3
+zlib.dll

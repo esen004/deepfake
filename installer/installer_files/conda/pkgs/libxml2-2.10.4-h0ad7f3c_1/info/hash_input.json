@@ -1,0 +1,7 @@
+{
+  "zlib": "1.2",
+  "c_compiler": "vs2017",
+  "channel_targets": "defaults",
+  "target_platform": "win-64",
+  "VERBOSE_AT": "V=1"
+}

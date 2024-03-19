@@ -1,0 +1,75 @@
+# This file created by conda-build 3.27.0
+# meta.yaml template originally from:
+# C:\b\abs_50tgz2fiyr\clone\recipe, last modified Wed Nov 22 15:41:09 2023
+# ------------------------------------------------
+
+package:
+  name: pip
+  version: 23.3.1
+source:
+  sha256: 1fcaa041308d01f14575f6d0d2ea4b75a3e2871fe4f9c694976f908768e14174
+  url: https://pypi.io/packages/source/p/pip/pip-23.3.1.tar.gz
+build:
+  disable_pip: true
+  entry_points:
+    - pip = pip._internal.cli.main:main
+    - pip3 = pip._internal.cli.main:main
+  number: '0'
+  string: py310haa95532_0
+requirements:
+  host:
+    - bzip2 1.0.8 he774522_0
+    - ca-certificates 2023.08.22 haa95532_0
+    - libffi 3.4.4 hd77b12b_0
+    - openssl 3.0.12 h2bbff1b_0
+    - python 3.10.13 he1021f5_0
+    - setuptools 68.0.0 py310haa95532_0
+    - sqlite 3.41.2 h2bbff1b_0
+    - tk 8.6.12 h2bbff1b_0
+    - tzdata 2023c h04d1e81_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - wheel 0.41.2 py310haa95532_0
+    - xz 5.4.2 h8cc25b3_0
+    - zlib 1.2.13 h8cc25b3_0
+  run:
+    - python >=3.10,<3.11.0a0
+    - setuptools
+    - wheel
+test:
+  commands:
+    - pip -h
+    - pip list
+  imports:
+    - pip
+about:
+  description: 'pip is the package installer for Python.
+
+    You can use pip to install packages from the Python Package
+
+    Index and other indexes.
+
+    '
+  dev_url: https://github.com/pypa/pip
+  doc_url: https://pip.pypa.io
+  home: https://pip.pypa.io
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.txt
+  summary: PyPA recommended tool for installing Python packages
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 505cffdd-a73d-494b-9794-e044af5d1d69
+  recipe-maintainers:
+    - jakirkham
+    - mingwandroid
+    - msarahan
+    - ocefpaf
+    - pelson
+  remote_url: git@github.com:AnacondaRecipes/pip-feedstock.git
+  sha: a13d339f41ec763b62517063e12a4b6a0f25df86
+  skip-lints:
+    - missing_pip_check
+    - python_build_tool_in_run
+    - uses_setup_py

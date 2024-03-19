@@ -1,0 +1,56 @@
+{
+  "build": "h8cc25b3_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\zlib-1.2.13-h8cc25b3_0",
+  "features": "",
+  "files": [
+    "Library/bin/zlib.dll",
+    "Library/include/zconf.h",
+    "Library/include/zlib.h",
+    "Library/lib/pkgconfig/zlib.pc",
+    "Library/lib/z.lib",
+    "Library/lib/zdll.lib",
+    "Library/lib/zlib.lib",
+    "Library/lib/zlibstatic.lib",
+    "Library/share/man/man3/zlib.3",
+    "zlib.dll",
+    ".nonadmin"
+  ],
+  "fn": "zlib-1.2.13-h8cc25b3_0.conda",
+  "license": "Zlib",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\zlib-1.2.13-h8cc25b3_0",
+    "type": 1
+  },
+  "md5": "93432f34cf66a0153947825ed4fbd69f",
+  "name": "zlib",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\zlib-1.2.13-h8cc25b3_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/lib/pkgconfig/zlib.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/b/abs_f0exso0psj/croot/zlib_1666594998929/_h_env",
+        "sha256": "89cbf97aa827ee1bbf42c895a2e94a615c5df17ccb2ec9d5f34c3776ff5057c1",
+        "sha256_in_prefix": "15a086bf07baf28ee35f0321edd114734f439cb5bdb5e6d1cfac60db243b7749",
+        "size_in_bytes": 520
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::zlib==1.2.13=h8cc25b3_0[md5=93432f34cf66a0153947825ed4fbd69f]",
+  "sha256": "af28437d7bbce2beaa058d7882c3e4b6b264a1e0ce9b9aa604e21cf5e57f09d3",
+  "size": 116215,
+  "subdir": "win-64",
+  "timestamp": 1666595229000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/zlib-1.2.13-h8cc25b3_0.conda",
+  "version": "1.2.13"
+}

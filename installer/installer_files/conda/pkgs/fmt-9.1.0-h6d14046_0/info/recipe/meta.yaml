@@ -1,0 +1,73 @@
+# This file created by conda-build 3.23.3
+# meta.yaml template originally from:
+# C:\b\abs_9c216uh7_6\clone\recipe, last modified Tue Feb 14 07:36:29 2023
+# ------------------------------------------------
+
+package:
+  name: fmt
+  version: 9.1.0
+source:
+  sha256: 5dea48d1fcddc3ec571ce2058e13910a0d4a6bab4cc09a809d8b1dd1c88ae6f2
+  url: https://github.com/fmtlib/fmt/archive/9.1.0.tar.gz
+build:
+  number: '0'
+  run_exports:
+    - fmt >=9.1.0,<10.0a0
+  string: h6d14046_0
+requirements:
+  build:
+    - bzip2 1.0.8 he774522_0
+    - ca-certificates 2023.01.10 haa95532_0
+    - cmake 3.22.1 h9ad04ae_0
+    - libffi 3.4.2 hd77b12b_6
+    - libuv 1.40.0 he774522_0
+    - lz4-c 1.9.4 h2bbff1b_0
+    - ninja 1.10.2 haa95532_5
+    - ninja-base 1.10.2 h6d14046_5
+    - openssl 1.1.1t h2bbff1b_0
+    - python 3.11.0 h966fe2a_2
+    - sqlite 3.40.1 h2bbff1b_0
+    - tk 8.6.12 h2bbff1b_0
+    - tzdata 2022g h04d1e81_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+    - xz 5.2.10 h8cc25b3_1
+    - zlib 1.2.13 h8cc25b3_0
+    - zstd 1.5.2 h19a0ad4_0
+  host:
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+  run:
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+  commands:
+    - if exist %LIBRARY_PREFIX%\include\fmt\core.h (exit 0) else (exit 1)
+    - if exist %LIBRARY_PREFIX%\include\fmt\format.h (exit 0) else (exit 1)
+    - if exist %LIBRARY_PREFIX%\lib\cmake\fmt-config.cmake (exit 0) else (exit 1)
+    - if exist %LIBRARY_PREFIX%\bin\fmt.dll (exit 0) else (exit 1)
+about:
+  description: '{fmt} is an open-source formatting library for C++.
+
+    It can be used as a safe and fast alternative to (s)printf and iostreams.
+
+    '
+  dev_url: https://github.com/fmtlib/fmt
+  doc_url: https://fmt.dev/latest/
+  home: https://fmt.dev/latest/
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.rst
+  summary: '{fmt} is an open-source formatting library for C++'
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 9cd68a84-9e82-4bb9-a451-61863d58849e
+  recipe-maintainers:
+    - saraedum
+    - tdegeus
+    - vitaut
+  remote_url: git@github.com:AnacondaRecipes/fmt-feedstock.git
+  sha: 71f9fe8f7258b237b28b798036d2140668923027

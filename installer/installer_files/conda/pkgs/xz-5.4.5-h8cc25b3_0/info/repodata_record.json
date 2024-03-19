@@ -1,0 +1,20 @@
+{
+  "build": "h8cc25b3_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "fn": "xz-5.4.5-h8cc25b3_0.conda",
+  "license": "LGPL-2.1-or-later and GPL-2.0-or-later",
+  "md5": "7f70f8fc2919e0bab334034be3ab9475",
+  "name": "xz",
+  "sha256": "bf03eb462c8c387bf199481cd8cf7a00c2e3d5eb1716b1105ac5dc1b11a93472",
+  "size": 607734,
+  "subdir": "win-64",
+  "timestamp": 1701724342000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/xz-5.4.5-h8cc25b3_0.conda",
+  "version": "5.4.5"
+}

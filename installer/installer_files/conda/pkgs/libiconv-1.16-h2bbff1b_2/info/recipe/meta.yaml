@@ -1,0 +1,79 @@
+# This file created by conda-build 3.21.8
+# meta.yaml template originally from:
+# C:\ci\containers\00003nslcfr\tmp\build\80754af9\rsync-recipes\libiconv-1.16-on-winbuilder, last modified Tue Apr 26 09:24:25 2022
+# ------------------------------------------------
+
+package:
+  name: libiconv
+  version: '1.16'
+source:
+  - patches:
+      - CMakeLists.txt.patch
+      - config.h.patch
+      - configure.cmake.patch
+    sha256: e6a1b1b589654277ee790cce3734f07876ac4ccfaecbee8afa0b649cf529cc04
+    url: https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz
+build:
+  number: '2'
+  run_exports:
+    - libiconv >=1.16,<2.0a0
+  string: h2bbff1b_2
+requirements:
+  build:
+    - bzip2 1.0.8 he774522_0
+    - ca-certificates 2022.3.29 haa95532_1
+    - cmake 3.22.1 h9ad04ae_0
+    - libffi 3.4.2 h604cdb4_1
+    - libuv 1.40.0 he774522_0
+    - lz4-c 1.9.3 h2bbff1b_1
+    - m2-gcc-libs 5.3.0 4
+    - m2-msys2-runtime 2.5.0.17080.65c939c 3
+    - m2-patch 2.7.5 2
+    - msys2-conda-epoch 20160418 1
+    - ninja 1.10.2 py310h6d14046_3
+    - openssl 1.1.1n h2bbff1b_0
+    - python 3.10.4 hbb2ffb3_0
+    - sqlite 3.38.2 h2bbff1b_0
+    - tk 8.6.11 h2bbff1b_0
+    - tzdata 2022a hda174b7_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+    - xz 5.2.5 h62dcd97_0
+    - zlib 1.2.12 h8cc25b3_2
+    - zstd 1.5.2 h19a0ad4_0
+  host:
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+  run:
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+  commands: null
+about:
+  description: 'This library provides an iconv() implementation, for use on systems
+    which don''t have one,
+
+    or whose implementation cannot convert from/to Unicode.
+
+    '
+  dev_url: https://git.savannah.gnu.org/cgit/libiconv.git/tree/
+  doc_url: https://www.gnu.org/savannah-checkouts/gnu/libiconv/documentation/libiconv-1.16/iconv.1.html
+  home: https://www.gnu.org/software/libiconv/
+  license: GPL-3.0-or-later
+  license_family: GPL3
+  license_file:
+    - COPYING
+    - COPYING.LIB
+  summary: Provides iconv for systems which don't have one (or that cannot convert
+    from/to Unicode.)
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - jakirkham
+    - jhamman
+    - mingwandroid
+    - ocefpaf
+    - scopatz

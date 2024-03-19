@@ -1,0 +1,66 @@
+# This file created by conda-build 3.22.0
+# meta.yaml template originally from:
+# C:\b\abs_f0exso0psj\clone\recipe, last modified Mon Oct 24 07:03:05 2022
+# ------------------------------------------------
+
+package:
+  name: zlib
+  version: 1.2.13
+source:
+  patches:
+    - cmake-pkg-config.patch
+  sha256: b3a24de97a8fdbc835b9833169501030b8977031bcb54b3b3ac13740f846ab30
+  url: http://zlib.net/zlib-1.2.13.tar.gz
+build:
+  number: '0'
+  run_exports:
+    - zlib >=1.2.13,<1.3.0a0
+  string: h8cc25b3_0
+requirements:
+  build:
+    - cmake-no-system 3.16.5 h6c2663c_1
+    - m2-msys2-runtime 2.5.0.17080.65c939c 3
+    - m2-patch 2.7.5 2
+    - msys2-conda-epoch 20160418 1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+  host:
+    - ripgrep 13.0.0 haa95532_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+  run:
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+  commands:
+    - if not exist %PREFIX%/Library/include/zlib.h exit 1
+    - if not exist %PREFIX%/Library/lib/z.lib exit 1
+    - if not exist %PREFIX%/Library/lib/zdll.lib exit 1
+    - if not exist %PREFIX%/Library/lib/zlib.lib exit 1
+    - if not exist %PREFIX%/Library/lib/zlibstatic.lib exit 1
+    - if not exist %PREFIX%/Library/bin/zlib.dll exit 1
+about:
+  description: 'zlib is designed to be a free, general-purpose, lossless data-compression
+
+    library for use on virtually any computer hardware and operating system.
+
+    '
+  dev_url: https://github.com/madler/zlib
+  doc_url: https://zlib.net/manual.html
+  home: https://zlib.net/
+  license: Zlib
+  license_family: Other
+  license_file: zlib.h
+  summary: Massively spiffy yet delicately unobtrusive compression library
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: f0d41caa-7bde-4b26-b952-b3563cfd147e
+  recipe-maintainers:
+    - groutr
+    - mingwandroid
+    - msarahan
+    - ocefpaf
+  remote_url: git@github.com:AnacondaRecipes/zlib-feedstock.git
+  sha: 188c70c233f0a26b10b46629324a0f9caf125209

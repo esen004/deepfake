@@ -1,0 +1,73 @@
+# This file created by conda-build 3.28.1
+# meta.yaml template originally from:
+# C:\b\abs_7dhvhspgvf\clone\recipe, last modified Mon Dec 11 20:46:07 2023
+# ------------------------------------------------
+
+package:
+  name: setuptools
+  version: 68.2.2
+source:
+  patches:
+    - patches/0002-disable-downloads-inside-conda-build.patch
+    - patches/0021-Add-d1trimfile-SRC_DIR-to-make-pdbs-more-relocatable.patch
+  sha256: 4ac1475276d2f1c48684874089fefcd83bd7162ddaafb81fac866ba0db282a87
+  url: https://pypi.io/packages/source/s/setuptools/setuptools-68.2.2.tar.gz
+build:
+  number: '0'
+  string: py310haa95532_0
+requirements:
+  build:
+    - m2-msys2-runtime 2.5.0.17080.65c939c 3
+    - m2-patch 2.7.5 2
+    - msys2-conda-epoch 20160418 1
+  host:
+    - bzip2 1.0.8 he774522_0
+    - ca-certificates 2023.08.22 haa95532_0
+    - libffi 3.4.4 hd77b12b_0
+    - openssl 3.0.12 h2bbff1b_0
+    - python 3.10.13 he1021f5_0
+    - sqlite 3.41.2 h2bbff1b_0
+    - tk 8.6.12 h2bbff1b_0
+    - tzdata 2023c h04d1e81_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - xz 5.4.5 h8cc25b3_0
+    - zlib 1.2.13 h8cc25b3_0
+  run:
+    - python >=3.10,<3.11.0a0
+test:
+  commands:
+    - pip check
+  imports:
+    - pkg_resources
+    - setuptools
+  requires:
+    - pip
+about:
+  description: 'Setuptools is a fully-featured, actively-maintained, and stable library
+
+    designed to facilitate packaging Python projects.
+
+    '
+  dev_url: https://github.com/pypa/setuptools
+  doc_url: https://setuptools.pypa.io/en/latest/
+  home: https://github.com/pypa/setuptools
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Download, build, install, upgrade, and uninstall Python packages
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 7d3c2e7d-8939-486c-b361-c5b87effe641
+  recipe-maintainers:
+    - isuruf
+    - jakirkham
+    - msarahan
+    - nicoddemus
+    - ocefpaf
+  remote_url: git@github.com:AnacondaRecipes/setuptools-feedstock.git
+  sha: 8facce215e859479b705110dbb2aaa09944df54d
+  skip-lints:
+    - missing_python_build_tool
+    - missing_wheel

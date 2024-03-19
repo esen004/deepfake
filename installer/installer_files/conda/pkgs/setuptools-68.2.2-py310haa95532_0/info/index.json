@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "py310haa95532_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.10,<3.11.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "setuptools",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1702327918854,
+  "version": "68.2.2"
+}

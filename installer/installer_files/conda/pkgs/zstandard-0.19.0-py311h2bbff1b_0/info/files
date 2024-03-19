@@ -1,0 +1,13 @@
+Lib/site-packages/zstandard-0.19.0-py3.11.egg-info/PKG-INFO
+Lib/site-packages/zstandard-0.19.0-py3.11.egg-info/SOURCES.txt
+Lib/site-packages/zstandard-0.19.0-py3.11.egg-info/dependency_links.txt
+Lib/site-packages/zstandard-0.19.0-py3.11.egg-info/requires.txt
+Lib/site-packages/zstandard-0.19.0-py3.11.egg-info/top_level.txt
+Lib/site-packages/zstandard/__init__.py
+Lib/site-packages/zstandard/__init__.pyi
+Lib/site-packages/zstandard/__pycache__/__init__.cpython-311.pyc
+Lib/site-packages/zstandard/__pycache__/backend_cffi.cpython-311.pyc
+Lib/site-packages/zstandard/_cffi.cp311-win_amd64.pyd
+Lib/site-packages/zstandard/backend_c.cp311-win_amd64.pyd
+Lib/site-packages/zstandard/backend_cffi.py
+Lib/site-packages/zstandard/py.typed

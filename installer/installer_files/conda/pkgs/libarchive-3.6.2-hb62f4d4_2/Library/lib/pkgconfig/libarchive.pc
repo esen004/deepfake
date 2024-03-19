@@ -1,0 +1,13 @@
+prefix=C:/b/abs_bb3_2y0re2/croot/libarchive_1685747619354/_h_env/Library
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libarchive
+Description: library that can create and read several streaming archive formats
+Version: 3.6.2
+Cflags: -I${includedir}
+Cflags.private: -DLIBARCHIVE_STATIC
+Libs: -L${libdir} -larchive
+Libs.private:  -lz -lbzip2 -llzma -llz4 -lzstd -lcrypto -liconv -lcharset -lxml2 -lssl
+Requires.private: 

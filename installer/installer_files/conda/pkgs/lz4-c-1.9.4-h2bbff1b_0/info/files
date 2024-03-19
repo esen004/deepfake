@@ -1,0 +1,6 @@
+Library/bin/liblz4.dll
+Library/bin/lz4.exe
+Library/include/lz4.h
+Library/include/lz4frame.h
+Library/include/lz4hc.h
+Library/lib/liblz4.lib

@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "py311haa95532_1",
+  "build_number": 1,
+  "depends": [
+    "python >=3.11,<3.12.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "pluggy",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1676422210561,
+  "version": "1.0.0"
+}

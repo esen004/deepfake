@@ -1,0 +1,21 @@
+{
+  "build": "py311h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "fn": "ruamel.yaml-0.17.21-py311h2bbff1b_0.conda",
+  "license": "MIT",
+  "md5": "4b30bcd1818d09878ba10ff79e7d2c11",
+  "name": "ruamel.yaml",
+  "sha256": "fe6d11118aef28be00608ded7823017476c5deae22b662a4a39253884494c4a5",
+  "size": 249416,
+  "subdir": "win-64",
+  "timestamp": 1676439254000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/ruamel.yaml-0.17.21-py311h2bbff1b_0.conda",
+  "version": "0.17.21"
+}

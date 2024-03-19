@@ -1,0 +1,161 @@
+commit 9b0cdd699a9b57ad0a02edabca84bd06226748b7
+Author: Jannis Leidel <jannis@leidel.info>
+Date:   Wed Mar 16 15:34:52 2022 +0100
+
+    Add CMAKE_BUILD_TYPE=Release again. (#2)
+    
+    * Add CMAKE_BUILD_TYPE=Release again.
+    
+    * Bumped build number.
+    
+    * More instances of the missing flag.
+
+commit 2bf535540ab02e728d618095fb34b06922d8c66f
+Author: Scott B <Scott@TheBaileyFamily.org>
+Date:   Thu Feb 24 07:47:59 2022 -0700
+
+    Initial merge and update of conda-forge recipe. (#1)
+    
+    Changes:
+    
+    - Initial import from conda-forge.
+    - Update version from 14.2.3 to 14.2.4. (Minor bugfixes.)
+    - Prefer ninja only (reduce maintenance costs and as a recipe fix).
+
+commit be8811120ad4869a51d30f5607977081084f47fa
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Dec 17 07:11:27 2021 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeGHAWithMain
+
+commit 9e493b2565a06bf7f5185e9126a22b6c24625ad6
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Dec 15 00:19:56 2021 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeGHAWithMain
+
+commit 84330a3a928f0be8bfe360e28529111ddba89aa1
+Merge: 6fa9e55 05817ff
+Author: Wolf Vollprecht <w.vollprecht@gmail.com>
+Date:   Mon Aug 30 09:29:24 2021 +0200
+
+    Merge pull request #4 from wolfv/14.2.3
+    
+    fix autotick bot
+
+commit 05817fffd014213b75cc1dfb10676590ba691ac5
+Author: Wolf Vollprecht <w.vollprecht@gmail.com>
+Date:   Fri Aug 27 16:04:13 2021 +0200
+
+    MNT: Re-rendered with conda-build 3.21.4, conda-smithy 3.12, and conda-forge-pinning 2021.08.26.14.38.21
+
+commit cdf84086f3e71c963602f948aef9d4cce3969f47
+Author: Wolf Vollprecht <w.vollprecht@gmail.com>
+Date:   Fri Aug 27 16:02:04 2021 +0200
+
+    ..
+
+commit ed562fe14ee73f69c9e8d55a6c97659e5f0325cb
+Author: Wolf Vollprecht <w.vollprecht@gmail.com>
+Date:   Fri Aug 27 15:59:51 2021 +0200
+
+    fix autotick bot
+
+commit 6fa9e55592a427a20da0b401cd2c8697c45adc1d
+Merge: f5da9d4 106a680
+Author: Wolf Vollprecht <w.vollprecht@gmail.com>
+Date:   Mon Nov 16 09:58:42 2020 +0100
+
+    Merge pull request #3 from wolfv/14.2.1
+    
+    release 14.2.1
+
+commit 106a680d34cbabd820160462a1469c1698bb50cd
+Author: Wolf Vollprecht <w.vollprecht@gmail.com>
+Date:   Mon Nov 16 09:32:28 2020 +0100
+
+    correct cmake build type typo
+
+commit a7e69763c27f036c34ea75ff23bcba4dfe2e2c96
+Author: Wolf Vollprecht <w.vollprecht@gmail.com>
+Date:   Sun Nov 15 11:26:19 2020 +0100
+
+    release 14.2.1
+
+commit f5da9d45807c5bb739c30cdab530145242756f5d
+Merge: c16b1d9 51d8d62
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Wed Nov 11 07:55:47 2020 +0000
+
+    ARM OSX Migrator
+    
+    automerged PR by conda-forge/automerge-action
+
+commit 51d8d62f972f8c999ea05cfcdd2d3cec967cd96e
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Nov 11 01:33:29 2020 -0600
+
+    cmake_args for c
+
+commit f768b7cd1830a0162314a3cca6d73e3fc9bde7fa
+Author: Wolf Vollprecht <w.vollprecht@gmail.com>
+Date:   Wed Nov 11 08:32:19 2020 +0100
+
+    disable c tests for cross compilation as well
+
+commit de106a8eab6504e45d1ee9483dedca10f6d02526
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Wed Nov 11 00:15:43 2020 -0600
+
+    Update for cross
+
+commit ba992401927ee68597ee11c031d98093891dea68
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Wed Nov 11 01:19:56 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.5, conda-smithy 3.8.5, and conda-forge-pinning 2020.11.10.21.31.03
+
+commit 3295506237f1eab52c8782e35c0a0acc7b0033f1
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Wed Nov 11 01:19:35 2020 +0000
+
+    migration: OSXArm
+
+commit c16b1d9e3d62bb7de3d99b1bd24c9bcf46f78a46
+Merge: c0127ca 0d89215
+Author: Wolf Vollprecht <w.vollprecht@gmail.com>
+Date:   Sat Nov 7 01:43:58 2020 +0100
+
+    Merge pull request #1 from regro-cf-autotick-bot/bot-pr_arch_h7001e3
+    
+    Arch Migrator
+
+commit 0d89215b4f0cc7127fbad66b25a4b97ad217f569
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Nov 6 23:48:46 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.5, conda-smithy 3.8.5, and conda-forge-pinning 2020.11.06.18.20.12
+
+commit cef8ac95ef47141595ab9bbac632852e7b8128fe
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Fri Nov 6 23:48:24 2020 +0000
+
+    migration: ArchRebuild
+
+commit c0127cad560c33c4a71ccd6eba0cd6fe5c28b93a
+Author: cf-blacksmithy <41433396+cf-blacksmithy@users.noreply.github.com>
+Date:   Fri Nov 6 20:18:32 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit da73271ac327fdf7aa9f15c3265492b77c3db025
+Author: GitHub Actions on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Nov 6 17:31:52 2020 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 1d0e4941f53b54b1718ab5630d942eb18b8f0b96
+Author: GitHub Actions on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Nov 6 17:27:02 2020 +0000
+
+    Initial feedstock commit with conda-smithy 3.8.5.

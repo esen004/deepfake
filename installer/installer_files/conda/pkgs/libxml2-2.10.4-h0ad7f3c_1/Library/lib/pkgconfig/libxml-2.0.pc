@@ -1,0 +1,11 @@
+prefix=C:/b/abs_71dwn2xrxm/croot/libxml2_1692971038672/_h_env/Library 
+exec_prefix=C:/b/abs_71dwn2xrxm/croot/libxml2_1692971038672/_h_env/Library 
+libdir=C:/b/abs_71dwn2xrxm/croot/libxml2_1692971038672/_h_env/Library/lib 
+includedir=C:/b/abs_71dwn2xrxm/croot/libxml2_1692971038672/_h_env/Library/include 
+modules=0 
+Name: libXML 
+Version: 2.10.4 
+Description: libXML library version2. 
+Requires: 
+Libs: -LC:/b/abs_71dwn2xrxm/croot/libxml2_1692971038672/_h_env/Library/lib -lxml2 -liconv -lz 
+Cflags: -IC:/b/abs_71dwn2xrxm/croot/libxml2_1692971038672/_h_env/Library/include/libxml 

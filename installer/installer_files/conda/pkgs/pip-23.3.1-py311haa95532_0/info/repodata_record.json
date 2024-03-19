@@ -1,0 +1,21 @@
+{
+  "build": "py311haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0",
+    "setuptools",
+    "wheel"
+  ],
+  "fn": "pip-23.3.1-py311haa95532_0.conda",
+  "license": "MIT",
+  "md5": "9c77845853e226fdd18dd5d9b4eb4ba9",
+  "name": "pip",
+  "sha256": "24c6bdfe08f079edc67643c7a4ecda3a6e4d38bb42c512616c2bfbb56e4848aa",
+  "size": 3695381,
+  "subdir": "win-64",
+  "timestamp": 1700667933000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pip-23.3.1-py311haa95532_0.conda",
+  "version": "23.3.1"
+}

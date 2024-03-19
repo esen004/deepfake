@@ -1,0 +1,67 @@
+# This file created by conda-build 3.21.7
+# ------------------------------------------------
+
+package:
+  name: reproc-cpp
+  version: 14.2.4
+source:
+  - patches: null
+    sha256: 55c780f7faa5c8cabd83ebbb84b68e5e0e09732de70a129f6b3c801e905415dd
+    url: https://github.com/DaanDeMeyer/reproc/archive/v14.2.4.tar.gz
+build:
+  number: 1
+  run_exports:
+    - reproc-cpp >=14.2,<15.0a0
+  string: hd77b12b_1
+requirements:
+  build:
+    - bzip2 1.0.8 he774522_0
+    - ca-certificates 2022.2.1 haa95532_0
+    - cmake 3.22.1 h9ad04ae_0
+    - libffi 3.4.2 h604cdb4_1
+    - libuv 1.40.0 he774522_0
+    - lz4-c 1.9.3 h2bbff1b_1
+    - ninja 1.10.2 py310h6d14046_3
+    - openssl 1.1.1m h2bbff1b_0
+    - python 3.10.0 h96c0403_3
+    - sqlite 3.38.0 h2bbff1b_0
+    - tk 8.6.11 h2bbff1b_0
+    - tzdata 2021e hda174b7_0
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+    - vs2017_win-64 19.16.27032.1 hb4161e2_3
+    - vswhere 2.8.4 haa95532_0
+    - xz 5.2.5 h62dcd97_0
+    - zlib 1.2.11 h8cc25b3_4
+    - zstd 1.5.0 h19a0ad4_1
+  host:
+    - reproc 14.2.4 hd77b12b_1
+    - vc 14.2 h21ff451_1
+    - vs2015_runtime 14.27.29016 h5e58377_2
+  run:
+    - reproc 14.2.4 hd77b12b_1
+    - vc >=14.1,<15.0a0
+    - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+  commands:
+    - if exist %LIBRARY_PREFIX%\include\reproc++\reproc.hpp (exit 0) else (exit 1)
+    - if exist %LIBRARY_PREFIX%\lib\cmake\reproc++\reproc++-config.cmake (exit 0)
+      else (exit 1)
+    - if exist %LIBRARY_PREFIX%\lib\reproc++.lib (exit 0) else (exit 1)
+    - if exist %LIBRARY_PREFIX%\bin\reproc++.dll (exit 0) else (exit 1)
+about:
+  dev_url: https://github.com/DaanDeMeyer/reproc
+  doc_src_url: https://github.com/DaanDeMeyer/reproc
+  doc_url: https://github.com/DaanDeMeyer/reproc#reproc
+  home: https://github.com/DaanDeMeyer/reproc
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: reproc (Redirected Process) is a cross-platform C/C++ library that simplifies
+    starting, stopping and communicating with external programs.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - DaanDeMeyer
+    - wolfv

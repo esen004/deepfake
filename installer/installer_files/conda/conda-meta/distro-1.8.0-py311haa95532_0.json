@@ -1,0 +1,53 @@
+{
+  "build": "py311haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\distro-1.8.0-py311haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/distro-1.8.0.dist-info/INSTALLER",
+    "Lib/site-packages/distro-1.8.0.dist-info/LICENSE",
+    "Lib/site-packages/distro-1.8.0.dist-info/METADATA",
+    "Lib/site-packages/distro-1.8.0.dist-info/RECORD",
+    "Lib/site-packages/distro-1.8.0.dist-info/REQUESTED",
+    "Lib/site-packages/distro-1.8.0.dist-info/WHEEL",
+    "Lib/site-packages/distro-1.8.0.dist-info/direct_url.json",
+    "Lib/site-packages/distro-1.8.0.dist-info/entry_points.txt",
+    "Lib/site-packages/distro-1.8.0.dist-info/top_level.txt",
+    "Lib/site-packages/distro/__init__.py",
+    "Lib/site-packages/distro/__main__.py",
+    "Lib/site-packages/distro/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/distro/__pycache__/__main__.cpython-311.pyc",
+    "Lib/site-packages/distro/__pycache__/distro.cpython-311.pyc",
+    "Lib/site-packages/distro/distro.py",
+    "Lib/site-packages/distro/py.typed",
+    "Scripts/distro-script.py",
+    "Scripts/distro.exe",
+    ".nonadmin"
+  ],
+  "fn": "distro-1.8.0-py311haa95532_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\distro-1.8.0-py311haa95532_0",
+    "type": 1
+  },
+  "md5": "28afdd9709f06fd48c7a1bc97885cdf3",
+  "name": "distro",
+  "package_tarball_full_path": "C:\\Users\\legio\\OneDrive\\Desktop\\roop\\unleashed\\roop-unleashed-main\\installer\\installer_files\\conda\\pkgs\\distro-1.8.0-py311haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::distro==1.8.0=py311haa95532_0[md5=28afdd9709f06fd48c7a1bc97885cdf3]",
+  "sha256": "a6f080c6d94ed70a0b4e0b9503cb7f485443c64cd11e6caabe4280812d4a6eec",
+  "size": 54986,
+  "subdir": "win-64",
+  "timestamp": 1701455264000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/distro-1.8.0-py311haa95532_0.conda",
+  "version": "1.8.0"
+}

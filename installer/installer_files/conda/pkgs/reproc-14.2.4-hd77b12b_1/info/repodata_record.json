@@ -1,0 +1,20 @@
+{
+  "build": "hd77b12b_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "fn": "reproc-14.2.4-hd77b12b_1.conda",
+  "license": "MIT",
+  "md5": "03a71ee6290cc184b4068aec88b23f61",
+  "name": "reproc",
+  "sha256": "f94b77f666ab83d13f0830adcdc16908321a2de8ab954ff1761a0943961e63b5",
+  "size": 33415,
+  "subdir": "win-64",
+  "timestamp": 1647442028000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/reproc-14.2.4-hd77b12b_1.conda",
+  "version": "14.2.4"
+}

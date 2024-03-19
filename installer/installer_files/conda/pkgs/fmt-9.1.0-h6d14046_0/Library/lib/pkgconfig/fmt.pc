@@ -1,0 +1,11 @@
+prefix=C:/b/abs_9c216uh7_6/croot/fmt_1676360206626/_h_env/Library
+exec_prefix=C:/b/abs_9c216uh7_6/croot/fmt_1676360206626/_h_env/Library
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: fmt
+Description: A modern formatting library
+Version: 9.1.0
+Libs: -L${libdir} -lfmt
+Cflags: -I${includedir}
+
